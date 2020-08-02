@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -15,9 +15,91 @@
     background-color: black;
 }
 
-h1 {
+.container h2 {
     font-family: 'Shojumaru', cursive;
     font-size: 80px;
     color: orangered;
     text-shadow: 5px 5px orange;
+}
+
+.infoScience {
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    height: 340px;
+    width: 320px;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.compScience {
+    position: absolute;
+    top: 180px;
+    right: 450px;
+    height: 340px;
+    width: 320px;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.mechanical {
+    position: absolute;
+    top: 570px;
+    left: 270px;
+    height: 340px;
+    width: 320px;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.civil {
+    position: absolute;
+    top: 570px;
+    right: 270px;
+    height: 340px;
+    width: 320px;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.elctronics {
+    position: absolute;
+    top: 570px;
+    transform: translateX(50%, 50%);
+    height: 340px;
+    width: 320px;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.infoScience h1,
+.compScience h1,
+.civil h1,
+.mechanical h1,
+.elctronics h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: gold;
+    text-shadow: 5px 5px 10px goldenrod;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+img {
+    width: 300px;
+    height: 250px;
 }
