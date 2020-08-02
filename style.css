@@ -77,10 +77,12 @@
     left: 450px;
     height: 340px;
     width: 320px;
+    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
     background-color: orangered;
+    border: 1px solid orange;
 }
 
 .compScience {
@@ -89,10 +91,12 @@
     right: 450px;
     height: 340px;
     width: 320px;
+    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
     background-color: orangered;
+    border: 1px solid orange;
 }
 
 .mechanical {
@@ -101,10 +105,12 @@
     left: 270px;
     height: 340px;
     width: 320px;
+    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
     background-color: orangered;
+    border: 1px solid orange;
 }
 
 .civil {
@@ -113,10 +119,12 @@
     right: 270px;
     height: 340px;
     width: 320px;
+    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
     background-color: orangered;
+    border: 1px solid orange;
 }
 
 .elctronics {
@@ -125,10 +133,12 @@
     transform: translateX(50%, 50%);
     height: 340px;
     width: 320px;
+    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
     background-color: orangered;
+    border: 1px solid orange;
 }
 
 .infoScience h1,
@@ -149,6 +159,8 @@ a {
 
 img {
     margin-top: 16px;
+    border-radius: 5%;
     width: 300px;
     height: 250px;
+    border: 2px solid orange;
 }
