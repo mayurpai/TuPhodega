@@ -98,7 +98,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
-    animation: load alternate-reverse 0.1s 22;
+    animation: load alternate-reverse 0.1s infinite;
 }
 
 .compScience {
@@ -113,7 +113,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
-    animation: load alternate-reverse 0.1s 22;
+    animation: load alternate-reverse 0.1s infinite;
 }
 
 .mechanical {
@@ -128,7 +128,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
-    animation: load alternate-reverse 0.1s 22;
+    animation: load alternate-reverse 0.1s infinite;
 }
 
 .civil {
@@ -143,7 +143,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
-    animation: load alternate-reverse 0.1s 22;
+    animation: load alternate-reverse 0.1s infinite;
 }
 
 .elctronics {
@@ -158,7 +158,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
-    animation: load alternate-reverse 0.1s 22;
+    animation: load alternate-reverse 0.1s infinite;
 }
 
 .infoScience h1,
@@ -169,6 +169,7 @@ li {
     margin-top: 15px;
     font-family: 'Pacifico', cursive;
     font-size: 28px;
+    text-shadow: 5px 5px orange;
     color: rgb(29, 29, 29);
 }
 
