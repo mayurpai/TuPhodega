@@ -15,7 +15,8 @@
     background-color: black;
 }
 
-.container h2 {
+li {
+    display: inline;
     font-family: 'Shojumaru', cursive;
     font-size: 80px;
     color: orangered;
