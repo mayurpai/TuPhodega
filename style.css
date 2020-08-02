@@ -72,6 +72,20 @@ li {
     transition: ease-in-out 1s;
 }
 
+@keyframes load {
+    0% {
+        opacity: 1;
+        color: #111;
+        width: 320px;
+        background-color: transparent;
+    }
+    100% {
+        opacity: 1;
+        width: 320px;
+        background-color: orangered;
+    }
+}
+
 .infoScience {
     position: absolute;
     top: 180px;
@@ -84,6 +98,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
+    animation: load alternate-reverse 0.1s 22;
 }
 
 .compScience {
@@ -98,6 +113,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
+    animation: load alternate-reverse 0.1s 22;
 }
 
 .mechanical {
@@ -112,6 +128,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
+    animation: load alternate-reverse 0.1s 22;
 }
 
 .civil {
@@ -126,6 +143,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
+    animation: load alternate-reverse 0.1s 22;
 }
 
 .elctronics {
@@ -140,6 +158,7 @@ li {
     text-align: center;
     background-color: orangered;
     border: 1px solid orange;
+    animation: load alternate-reverse 0.1s 22;
 }
 
 .infoScience h1,
@@ -151,7 +170,6 @@ li {
     font-family: 'Pacifico', cursive;
     font-size: 28px;
     color: rgb(29, 29, 29);
-    text-shadow: 5px 5px 3px orange;
 }
 
 a {
@@ -164,4 +182,71 @@ img {
     width: 300px;
     height: 250px;
     border: 2px solid orange;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        color: orangered;
+        width: auto;
+    }
+    100% {
+        opacity: 1;
+        color: #111;
+        width: auto;
+    }
+}
+
+ul li:nth-child(1) {
+    animation: move alternate-reverse 1s 0.3s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(2) {
+    animation: move alternate-reverse 1s 0.4s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(3) {
+    animation: move alternate-reverse 1s 0.5s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(4) {
+    animation: move alternate-reverse 1s 0.6s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(5) {
+    animation: move alternate-reverse 1s 0.7s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(6) {
+    animation: move alternate-reverse 1s 0.8s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(7) {
+    animation: move alternate-reverse 1s 0.9s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(8) {
+    animation: move alternate-reverse 1s 1.0s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(9) {
+    animation: move alternate-reverse 1s 1.1s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
 }
