@@ -22,18 +22,6 @@
     text-shadow: 5px 5px orange;
 }
 
-.infoScience {
-    position: absolute;
-    top: 180px;
-    left: 450px;
-    height: 340px;
-    width: 320px;
-    display: flexbox;
-    justify-content: center;
-    text-align: center;
-    background-color: aliceblue;
-}
-
 .infoScience:hover,
 .compScience:hover,
 .mechanical:hover,
@@ -48,6 +36,7 @@
 .mechanical img:hover,
 .elctronics img:hover,
 .civil img:hover {
+    cursor: pointer;
     transform: scale(1.05);
     transition: ease-in-out 1s;
 }
@@ -66,20 +55,32 @@
 
 .mechanical h1:hover {
     cursor: pointer;
-    transform: scale(1.9);
+    transform: scale(1.6);
     transition: ease-in-out 1s;
 }
 
 .elctronics h1:hover {
     cursor: pointer;
-    transform: scale(1.9);
+    transform: scale(1.5);
     transition: ease-in-out 1s;
 }
 
 .civil h1:hover {
     cursor: pointer;
-    transform: scale(2.3);
+    transform: scale(1.5);
     transition: ease-in-out 1s;
+}
+
+.infoScience {
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    height: 340px;
+    width: 320px;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: orangered;
 }
 
 .compScience {
@@ -91,7 +92,7 @@
     display: flexbox;
     justify-content: center;
     text-align: center;
-    background-color: aliceblue;
+    background-color: orangered;
 }
 
 .mechanical {
@@ -103,7 +104,7 @@
     display: flexbox;
     justify-content: center;
     text-align: center;
-    background-color: aliceblue;
+    background-color: orangered;
 }
 
 .civil {
@@ -115,7 +116,7 @@
     display: flexbox;
     justify-content: center;
     text-align: center;
-    background-color: aliceblue;
+    background-color: orangered;
 }
 
 .elctronics {
@@ -127,7 +128,7 @@
     display: flexbox;
     justify-content: center;
     text-align: center;
-    background-color: aliceblue;
+    background-color: orangered;
 }
 
 .infoScience h1,
@@ -138,8 +139,8 @@
     margin-top: 15px;
     font-family: 'Pacifico', cursive;
     font-size: 28px;
-    color: gold;
-    text-shadow: 5px 5px 10px goldenrod;
+    color: rgb(29, 29, 29);
+    text-shadow: 5px 5px 3px orange;
 }
 
 a {
