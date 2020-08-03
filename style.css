@@ -12,7 +12,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: black;
+    background: url('images/bg.jpg') no-repeat;
+    background-size: cover;
 }
 
 li {
@@ -327,7 +328,7 @@ ul li:nth-child(9) {
     height: 70px;
     width: 100vw;
     letter-spacing: 10px;
-    background-color: black
+    background-color: transparent;
 }
 
 #copy {
