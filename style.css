@@ -13,7 +13,7 @@
     justify-content: center;
     text-align: center;
     background: url('images/bg.jpg') no-repeat;
-    background-size: cover;
+    background-size: 1600px 800px;
 }
 
 li {
