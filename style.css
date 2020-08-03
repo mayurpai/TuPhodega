@@ -178,6 +178,11 @@ a {
     text-decoration: none;
 }
 
+#by a {
+    text-decoration: none;
+    color: orangered;
+}
+
 .container img {
     margin-top: 16px;
     border-radius: 5%;
