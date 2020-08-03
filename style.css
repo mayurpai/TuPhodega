@@ -323,22 +323,31 @@ ul li:nth-child(9) {
 .footer {
     position: absolute;
     bottom: -300px;
+    margin-bottom: 25px;
     height: 70px;
     width: 100vw;
     letter-spacing: 10px;
-    background-color: rgb(29, 29, 29);
+    background-color: black
 }
 
 #copy {
-    color: white;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
+    color: orangered;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    background-color: transparent;
     text-align: center;
-    position: relative;
+    letter-spacing: 0;
+}
+
+#by {
+    color: orangered;
+    position: absolute;
+    top: 45%;
+    left: 30px;
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 0;
 }
 
 i {
