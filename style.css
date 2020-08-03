@@ -27,7 +27,7 @@ li {
 .infoScience:hover,
 .compScience:hover,
 .mechanical:hover,
-.elctronics:hover,
+.electro:hover,
 .civil:hover {
     transform: scale(1.1);
     transition: ease-in-out 1s;
@@ -36,7 +36,7 @@ li {
 .infoScience img:hover,
 .compScience img:hover,
 .mechanical img:hover,
-.elctronics img:hover,
+.electro img:hover,
 .civil img:hover {
     cursor: pointer;
     transform: scale(1.05);
@@ -61,7 +61,7 @@ li {
     transition: ease-in-out 1s;
 }
 
-.elctronics h1:hover {
+.electro h1:hover {
     cursor: pointer;
     transform: scale(1.5);
     transition: ease-in-out 1s;
@@ -147,7 +147,7 @@ li {
     animation: load alternate-reverse 0.1s infinite;
 }
 
-.elctronics {
+.electro {
     position: absolute;
     top: 570px;
     transform: translateX(50%, 50%);
@@ -166,7 +166,7 @@ li {
 .compScience h1,
 .civil h1,
 .mechanical h1,
-.elctronics h1 {
+.electro h1 {
     margin-top: 15px;
     font-family: 'Pacifico', cursive;
     font-size: 28px;
