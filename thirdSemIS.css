@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url('images/bg.jpg') no-repeat;
+    background-size: 1600px 800px;
+}
+
+li {
+    display: inline;
+    font-family: 'Shojumaru', cursive;
+    font-size: 80px;
+    color: orangered;
+    text-shadow: 5px 5px orange;
+}
+
+.infoScience:hover,
+.compScience:hover,
+.mechanical:hover,
+.electro:hover,
+.civil:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+}
+
+.infoScience img:hover,
+.compScience img:hover,
+.mechanical img:hover,
+.electro img:hover,
+.civil img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: ease-in-out 1s;
+}
+
+.infoScience h1:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: ease-in-out 1s;
+}
+
+.compScience h1:hover {
+    cursor: pointer;
+    transform: scale(1.45);
+    transition: ease-in-out 1s;
+}
+
+.mechanical h1:hover {
+    cursor: pointer;
+    transform: scale(1.6);
+    transition: ease-in-out 1s;
+}
+
+.electro h1:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: ease-in-out 1s;
+}
+
+.civil h1:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: ease-in-out 1s;
+}
+
+@keyframes load {
+    0% {
+        opacity: 1;
+        color: #111;
+        width: 320px;
+        background-color: transparent;
+    }
+    100% {
+        opacity: 1;
+        width: 320px;
+        background-color: orangered;
+    }
+}
+
+.infoScience {
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    height: 340px;
+    width: 320px;
+    border-radius: 5%;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: orangered;
+    border: 1px solid orange;
+    animation: load alternate-reverse 0.1s infinite;
+}
+
+.compScience {
+    position: absolute;
+    top: 180px;
+    right: 450px;
+    height: 340px;
+    width: 320px;
+    border-radius: 5%;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: orangered;
+    border: 1px solid orange;
+    animation: load alternate-reverse 0.1s infinite;
+}
+
+.mechanical {
+    position: absolute;
+    top: 570px;
+    left: 270px;
+    height: 340px;
+    width: 320px;
+    border-radius: 5%;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: orangered;
+    border: 1px solid orange;
+    animation: load alternate-reverse 0.1s infinite;
+}
+
+.civil {
+    position: absolute;
+    top: 570px;
+    right: 270px;
+    height: 340px;
+    width: 320px;
+    border-radius: 5%;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: orangered;
+    border: 1px solid orange;
+    animation: load alternate-reverse 0.1s infinite;
+}
+
+.electro {
+    position: absolute;
+    top: 570px;
+    transform: translateX(50%, 50%);
+    height: 340px;
+    width: 320px;
+    border-radius: 5%;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: orangered;
+    border: 1px solid orange;
+    animation: load alternate-reverse 0.1s infinite;
+}
+
+.infoScience h1,
+.compScience h1,
+.civil h1,
+.mechanical h1,
+.electro h1 {
+    margin-top: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    text-shadow: 5px 5px orange;
+    color: rgb(29, 29, 29);
+}
+
+a {
+    text-decoration: none;
+}
+
+#by a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.container img {
+    margin-top: 16px;
+    border-radius: 5%;
+    width: 300px;
+    height: 250px;
+    border: 2px solid orange;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    animation: load alternate-reverse 0.1s infinite;
+    background: linear-gradient(orange, orangered);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    animation: load alternate-reverse 0.1s infinite;
+    background: linear-gradient(orangered, orange);
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        color: orangered;
+        width: auto;
+    }
+    100% {
+        opacity: 1;
+        color: transparent;
+        width: auto;
+    }
+}
+
+ul li:nth-child(1) {
+    animation: move alternate-reverse 1s 0.3s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(2) {
+    animation: move alternate-reverse 1s 0.4s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(3) {
+    animation: move alternate-reverse 1s 0.5s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(4) {
+    animation: move alternate-reverse 1s 0.6s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(5) {
+    animation: move alternate-reverse 1s 0.7s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(6) {
+    animation: move alternate-reverse 1s 0.8s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(7) {
+    animation: move alternate-reverse 1s 0.9s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(8) {
+    animation: move alternate-reverse 1s 1.0s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+ul li:nth-child(9) {
+    animation: move alternate-reverse 1s 1.1s;
+    color: orangered;
+    text-shadow: 5px 5px 3px orange;
+}
+
+.footer {
+    position: absolute;
+    bottom: -300px;
+    margin-bottom: 25px;
+    height: 70px;
+    width: 100vw;
+    letter-spacing: 10px;
+    background-color: transparent;
+}
+
+#copy {
+    color: orangered;
+    position: absolute;
+    top: 45%;
+    left: 46.5%;
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+#by {
+    color: orangered;
+    position: absolute;
+    top: 45%;
+    left: 30px;
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+i {
+    background: transparent;
+}
+
+#fb {
+    position: absolute;
+    top: 35%;
+    margin-right: 50px;
+    right: 150px;
+    color: orangered;
+}
+
+#git {
+    position: absolute;
+    top: 35%;
+    margin-right: 40px;
+    right: 115px;
+    color: orangered;
+}
+
+#twitter {
+    position: absolute;
+    top: 35%;
+    margin-right: 30px;
+    right: 80px;
+    color: orangered;
+}
+
+#insta {
+    position: absolute;
+    top: 35%;
+    margin-right: 20px;
+    right: 45px;
+    color: orangered;
+}
+
+#link {
+    position: absolute;
+    top: 35%;
+    margin-right: 10px;
+    right: 10px;
+    color: orangered;
+}
+
+#fb:hover {
+    color: #1877f2;
+}
+
+#git:hover {
+    color: #6e5494;
+}
+
+#twitter:hover {
+    color: #1da1f2;
+}
+
+#link:hover {
+    color: #007bb5;
+}
+
+#insta:hover {
+    color: #c32aa3;
+}
