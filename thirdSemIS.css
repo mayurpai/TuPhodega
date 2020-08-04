@@ -394,6 +394,14 @@ button:hover {
     color: rgb(29, 29, 29);
 }
 
+#bonus {
+    position: absolute;
+    right: 42%;
+    bottom: -200px;
+    cursor: pointer;
+    animation: loads alternate-reverse 0.1s 0.1s infinite;
+}
+
 #one {
     cursor: pointer;
     animation: loads alternate-reverse 0.3s 0.1s infinite;
