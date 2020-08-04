@@ -417,9 +417,25 @@ button:hover {
     color: rgb(29, 29, 29);
 }
 
-#bonus {
+#mqp {
     position: absolute;
-    right: 42%;
+    left: 42%;
+    bottom: -200px;
+    cursor: pointer;
+    animation: loads alternate-reverse 0.1s 0.1s infinite;
+}
+
+#ade {
+    position: absolute;
+    left: 19.5%;
+    bottom: -200px;
+    cursor: pointer;
+    animation: loads alternate-reverse 0.1s 0.1s infinite;
+}
+
+#dsa {
+    position: absolute;
+    right: 19.5%;
     bottom: -200px;
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
