@@ -5,13 +5,12 @@
     overflow-x: hidden;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
     .container {
         height: 100vh;
         width: 100vw;
         background: url('images/bg.jpg') no-repeat;
         background-size: cover;
-        overflow: hidden;
     }
     li {
         font-size: 40px;
@@ -109,21 +108,18 @@
         text-shadow: 5px 5px 3px orange;
     }
     .footer {
-        bottom: -10px;
-        margin-bottom: 25px;
-        height: 20px;
+        top: 710px;
+        height: 15px;
         width: 100vw;
-        letter-spacing: 1px;
-        overflow: hidden;
     }
     #copy {
         font-size: xx-small;
         top: 15%;
-        left: 44%;
+        left: 43%;
     }
     #by {
-        font-size: x-small;
-        top: 15%;
+        font-size: 6px;
+        top: 10%;
         left: 10px;
     }
     #fb {
@@ -157,7 +153,7 @@
     }
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 600px) {
     .container {
         height: 100vh;
         width: 100vw;
@@ -272,10 +268,9 @@
     }
     .footer {
         bottom: -300px;
-        margin-bottom: 25px;
-        height: 70px;
+        margin-bottom: 40px;
+        height: 50px;
         width: 100vw;
-        letter-spacing: 10px;
     }
     #copy {
         top: 45%;
@@ -517,7 +512,6 @@ ul li:nth-child(9) {
     color: orangered;
     position: absolute;
     background-color: transparent;
-    text-align: center;
     letter-spacing: 0;
 }
 
