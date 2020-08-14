@@ -20,6 +20,9 @@ html {
         bottom: -2.8rem;
         left: 20rem;
     }
+    .sem {
+        top: 11rem;
+    }
 }
 
 @media(max-width: 768px) {
@@ -32,6 +35,9 @@ html {
     #copy {
         bottom: -53.7rem;
         left: 23rem;
+    }
+    .sem {
+        top: 35rem;
     }
 }
 
@@ -76,7 +82,6 @@ a {
     position: absolute;
     height: 100vh;
     width: 70rem;
-    top: 11rem;
     border-radius: 5.0rem;
     background-size: cover;
     padding: 1.0rem 5.0rem 1.0rem 5.0rem;
