@@ -41,6 +41,39 @@ html {
     }
 }
 
+@media(max-width: 375px) {
+    html {
+        font-size: 29%;
+    }
+    .footer {
+        top: 115rem;
+    }
+    #copy {
+        bottom: -24.5rem;
+        left: 23rem;
+    }
+    .sem {
+        top: 35rem;
+    }
+}
+
+@media(max-width: 300px) {
+    html {
+        font-size: 25%;
+    }
+    .footer {
+        top: 115rem;
+    }
+    #copy {
+        bottom: -23.0rem;
+        left: 23rem;
+    }
+    .sem {
+        top: 35rem;
+    }
+}
+
+
 .container {
     position: absolute;
     height: 100vh;
