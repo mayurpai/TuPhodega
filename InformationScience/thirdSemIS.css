@@ -307,6 +307,160 @@
                             }
                         }
                         
+                        @media only screen and (max-width: 380px) {
+                            .container {
+                                height: 100vh;
+                                width: 100vw;
+                                background-size: cover;
+                            }
+                            li {
+                                font-size: 32px;
+                                text-shadow: 1.5px 1.5px orange;
+                            }
+                            @keyframes load {
+                                0% {
+                                    opacity: 1;
+                                    color: #111;
+                                    width: 130px;
+                                    background-color: transparent;
+                                }
+                                100% {
+                                    opacity: 1;
+                                    width: 130px;
+                                    background-color: #111;
+                                }
+                            }
+                            .infoScience {
+                                top: 50px;
+                                left: 20px;
+                                height: 160px;
+                                width: 140px;
+                                border-radius: 5%;
+                            }
+                            .compScience {
+                                top: 50px;
+                                right: 20px;
+                                height: 160px;
+                                width: 140px;
+                                border-radius: 5%;
+                            }
+                            .mechanical {
+                                top: 230px;
+                                right: 20px;
+                                height: 160px;
+                                width: 140px;
+                                border-radius: 5%;
+                            }
+                            .civil {
+                                top: 230px;
+                                left: 20px;
+                                height: 160px;
+                                width: 140px;
+                                border-radius: 5%;
+                            }
+                            .electro {
+                                top: 410px;
+                                left: 20px;
+                                height: 160px;
+                                width: 140px;
+                                border-radius: 5%;
+                            }
+                            .math {
+                                top: 410px;
+                                right: 20px;
+                                height: 160px;
+                                width: 140px;
+                                border-radius: 5%;
+                            }
+                            .math h1,
+                            .mechanical h1,
+                            .electro h1 {
+                                margin-top: 2.5px;
+                                font-size: 10px;
+                                text-shadow: 2.0px 2.0px rgb(29, 29, 29);
+                            }
+                            #size {
+                                margin-top: 2.5px;
+                                font-size: 7px;
+                                text-shadow: 1.5px 1.5px rgb(29, 29, 29);
+                            }
+                             ::-webkit-scrollbar {
+                                width: 2.5px;
+                            }
+                            .footer {
+                                bottom: -25px;
+                                height: 50px;
+                                width: 100vw;
+                            }
+                            #copy {
+                                font-size: xx-small;
+                                top: 75%;
+                                left: 41%;
+                            }
+                            #by {
+                                font-size: 6px;
+                                top: 75%;
+                                left: 10px;
+                            }
+                            #fb {
+                                font-size: 15px;
+                                top: 70%;
+                                margin-right: 50px;
+                                right: 50px;
+                            }
+                            #git {
+                                font-size: 15px;
+                                top: 70%;
+                                margin-right: 40px;
+                                right: 40px;
+                            }
+                            #twitter {
+                                font-size: 15px;
+                                top: 70%;
+                                margin-right: 30px;
+                                right: 30px;
+                            }
+                            #insta {
+                                font-size: 15px;
+                                top: 70%;
+                                margin-right: 20px;
+                                right: 20px;
+                            }
+                            #link {
+                                font-size: 15px;
+                                top: 70%;
+                                margin-right: 10px;
+                                right: 10px;
+                            }
+                            .count {
+                                display: block;
+                                margin-top: 5px;
+                            }
+                            button {
+                                font-size: 7.0px;
+                                font-weight: bold;
+                                border-radius: 40px;
+                                width: 100px;
+                                margin-bottom: 3.0px;
+                                height: 18px;
+                            }
+                            #mqp {
+                                left: 34.2%;
+                                font-size: 6px;
+                                bottom: 35px;
+                            }
+                            #ade {
+                                left: 2.5%;
+                                font-size: 5px;
+                                bottom: 35px;
+                            }
+                            #dsa {
+                                right: 2.5%;
+                                font-size: 5px;
+                                bottom: 35px;
+                            }
+                        }
+                        
                         .container {
                             position: relative;
                             display: flex;
