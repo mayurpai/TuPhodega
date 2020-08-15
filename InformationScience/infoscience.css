@@ -73,7 +73,6 @@ html {
     }
 }
 
-
 .container {
     position: absolute;
     height: 100vh;
@@ -81,7 +80,7 @@ html {
     display: flex;
     justify-content: center;
     text-align: center;
-    background: url('images/bg.jpg') no-repeat;
+    background: url('../InformationScience/bg.jpg') no-repeat;
 }
 
 li {

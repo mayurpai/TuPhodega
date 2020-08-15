@@ -80,7 +80,7 @@ html {
     display: flex;
     justify-content: center;
     text-align: center;
-    background: url('/ComputerScience/bg.jpg') no-repeat;
+    background: url('../ComputerScience/bg.jpg') no-repeat;
 }
 
 li {
