@@ -84,73 +84,6 @@
                              ::-webkit-scrollbar {
                                 width: 8px;
                             }
-                             ::-webkit-scrollbar-thumb {
-                                animation: load alternate-reverse 0.1s infinite;
-                                background: linear-gradient(orange, orangered);
-                                border-radius: 100px;
-                                height: 50px;
-                            }
-                             ::-webkit-scrollbar-thumb:hover {
-                                animation: load alternate-reverse 0.1s infinite;
-                                background: linear-gradient(orangered, orange);
-                            }
-                            @keyframes move {
-                                0% {
-                                    opacity: 0;
-                                    color: orangered;
-                                    width: auto;
-                                }
-                                100% {
-                                    opacity: 1;
-                                    color: transparent;
-                                    width: auto;
-                                }
-                            }
-                            ul li:nth-child(1) {
-                                animation: move alternate-reverse 1s 0.3s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(2) {
-                                animation: move alternate-reverse 1s 0.4s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(3) {
-                                animation: move alternate-reverse 1s 0.5s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(4) {
-                                animation: move alternate-reverse 1s 0.6s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(5) {
-                                animation: move alternate-reverse 1s 0.7s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(6) {
-                                animation: move alternate-reverse 1s 0.8s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(7) {
-                                animation: move alternate-reverse 1s 0.9s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(8) {
-                                animation: move alternate-reverse 1s 1.0s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(9) {
-                                animation: move alternate-reverse 1s 1.1s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
                             .footer {
                                 bottom: -300px;
                                 margin-bottom: 25px;
@@ -193,21 +126,6 @@
                                 margin-right: 10px;
                                 right: 10px;
                             }
-                            #fb:hover {
-                                color: #1877f2;
-                            }
-                            #git:hover {
-                                color: #6e5494;
-                            }
-                            #twitter:hover {
-                                color: #1da1f2;
-                            }
-                            #link:hover {
-                                color: #007bb5;
-                            }
-                            #insta:hover {
-                                color: #c32aa3;
-                            }
                             .count {
                                 display: block;
                                 margin-top: 15px;
@@ -219,17 +137,6 @@
                                 width: 250px;
                                 margin-bottom: 7px;
                                 height: 40px;
-                            }
-                            button:hover {
-                                background-position: right center;
-                                transform: scale(1.03);
-                                transition: linear 0.25s;
-                            }
-                            .count p:hover {
-                                cursor: pointer;
-                                transform: scale(1.4);
-                                transition: ease-in-out 1s;
-                                color: rgb(29, 29, 29);
                             }
                             #mqp {
                                 left: 42%;
@@ -325,75 +232,8 @@
                              ::-webkit-scrollbar {
                                 width: 4px;
                             }
-                             ::-webkit-scrollbar-thumb {
-                                animation: load alternate-reverse 0.1s infinite;
-                                background: linear-gradient(orange, orangered);
-                                border-radius: 100px;
-                                height: 25px;
-                            }
-                             ::-webkit-scrollbar-thumb:hover {
-                                animation: load alternate-reverse 0.1s infinite;
-                                background: linear-gradient(orangered, orange);
-                            }
-                            @keyframes move {
-                                0% {
-                                    opacity: 0;
-                                    color: orangered;
-                                    width: auto;
-                                }
-                                100% {
-                                    opacity: 1;
-                                    color: transparent;
-                                    width: auto;
-                                }
-                            }
-                            ul li:nth-child(1) {
-                                animation: move alternate-reverse 1s 0.3s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(2) {
-                                animation: move alternate-reverse 1s 0.4s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(3) {
-                                animation: move alternate-reverse 1s 0.5s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(4) {
-                                animation: move alternate-reverse 1s 0.6s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(5) {
-                                animation: move alternate-reverse 1s 0.7s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(6) {
-                                animation: move alternate-reverse 1s 0.8s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(7) {
-                                animation: move alternate-reverse 1s 0.9s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(8) {
-                                animation: move alternate-reverse 1s 1.0s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
-                            ul li:nth-child(9) {
-                                animation: move alternate-reverse 1s 1.1s;
-                                color: orangered;
-                                text-shadow: 5px 5px 3px orange;
-                            }
                             .footer {
-                                bottom: 100px;
+                                bottom: 75px;
                                 margin-bottom: 40px;
                                 height: 50px;
                                 width: 100vw;
@@ -438,21 +278,6 @@
                                 margin-right: 10px;
                                 right: 10px;
                             }
-                            #fb:hover {
-                                color: #1877f2;
-                            }
-                            #git:hover {
-                                color: #6e5494;
-                            }
-                            #twitter:hover {
-                                color: #1da1f2;
-                            }
-                            #link:hover {
-                                color: #007bb5;
-                            }
-                            #insta:hover {
-                                color: #c32aa3;
-                            }
                             .count {
                                 display: block;
                                 margin-top: 5px;
@@ -465,31 +290,20 @@
                                 margin-bottom: 3.5px;
                                 height: 20px;
                             }
-                            button:hover {
-                                background-position: right center;
-                                transform: scale(1.03);
-                                transition: linear 0.25s;
-                            }
-                            .count p:hover {
-                                cursor: pointer;
-                                transform: scale(1.4);
-                                transition: ease-in-out 1s;
-                                color: rgb(29, 29, 29);
-                            }
                             #mqp {
                                 left: 36.5%;
                                 font-size: 7px;
-                                bottom: 160px;
+                                bottom: 135px;
                             }
                             #ade {
                                 left: 2.5%;
-                                font-size: 7px;
-                                bottom: 160px;
+                                font-size: 6px;
+                                bottom: 135px;
                             }
                             #dsa {
                                 right: 2.5%;
-                                font-size: 7px;
-                                bottom: 160px;
+                                font-size: 6px;
+                                bottom: 135px;
                             }
                         }
                         
@@ -620,6 +434,18 @@
                             color: orange;
                         }
                         
+                         ::-webkit-scrollbar-thumb {
+                            animation: load alternate-reverse 0.1s infinite;
+                            background: linear-gradient(orange, orangered);
+                            border-radius: 100px;
+                            height: 25px;
+                        }
+                        
+                         ::-webkit-scrollbar-thumb:hover {
+                            animation: load alternate-reverse 0.1s infinite;
+                            background: linear-gradient(orangered, orange);
+                        }
+                        
                         #size {
                             font-family: 'Pacifico', cursive;
                             text-shadow: 5px 5px rgb(29, 29, 29);
@@ -722,6 +548,60 @@
                         
                         #insta:hover {
                             color: #c32aa3;
+                        }
+                        
+                        ul li:nth-child(1) {
+                            animation: move alternate-reverse 1s 0.3s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
+                        }
+                        
+                        ul li:nth-child(2) {
+                            animation: move alternate-reverse 1s 0.4s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
+                        }
+                        
+                        ul li:nth-child(3) {
+                            animation: move alternate-reverse 1s 0.5s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
+                        }
+                        
+                        ul li:nth-child(4) {
+                            animation: move alternate-reverse 1s 0.6s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
+                        }
+                        
+                        ul li:nth-child(5) {
+                            animation: move alternate-reverse 1s 0.7s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
+                        }
+                        
+                        ul li:nth-child(6) {
+                            animation: move alternate-reverse 1s 0.8s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
+                        }
+                        
+                        ul li:nth-child(7) {
+                            animation: move alternate-reverse 1s 0.9s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
+                        }
+                        
+                        ul li:nth-child(8) {
+                            animation: move alternate-reverse 1s 1.0s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
+                        }
+                        
+                        ul li:nth-child(9) {
+                            animation: move alternate-reverse 1s 1.1s;
+                            color: orangered;
+                            text-shadow: 5px 5px 3px orange;
                         }
                         
                         button {
