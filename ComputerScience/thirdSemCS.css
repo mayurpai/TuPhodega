@@ -5,23 +5,474 @@
     overflow-x: hidden;
 }
 
+@media only screen and (min-width: 600px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+    }
+    li {
+        font-size: 80px;
+        text-shadow: 5px 5px orange;
+    }
+    @keyframes load {
+        0% {
+            opacity: 1;
+            color: #111;
+            width: 320px;
+            background-color: transparent;
+        }
+        100% {
+            opacity: 1;
+            width: 320px;
+            background-color: #111;
+        }
+    }
+    .infoScience {
+        top: 180px;
+        left: 270px;
+        height: 340px;
+        width: 320px;
+        border-radius: 5%;
+    }
+    .math {
+        top: 180px;
+        height: 340px;
+        width: 320px;
+        border-radius: 5%;
+    }
+    .compScience {
+        top: 180px;
+        right: 270px;
+        height: 340px;
+        width: 320px;
+        border-radius: 5%;
+    }
+    .mechanical {
+        top: 570px;
+        left: 270px;
+        height: 340px;
+        width: 320px;
+        border-radius: 5%;
+    }
+    .civil {
+        top: 570px;
+        right: 270px;
+        height: 340px;
+        width: 320px;
+        border-radius: 5%;
+    }
+    .electro {
+        top: 570px;
+        transform: translateX(50%, 50%);
+        height: 340px;
+        width: 320px;
+        border-radius: 5%;
+    }
+    .math h1,
+    .mechanical h1,
+    .electro h1 {
+        margin-top: 15px;
+        font-size: 28px;
+        text-shadow: 5px 5px rgb(29, 29, 29);
+    }
+    #size {
+        margin-top: 22px;
+        font-size: 20px;
+        text-shadow: 5px 5px rgb(29, 29, 29);
+    }
+     ::-webkit-scrollbar {
+        width: 8px;
+    }
+    .footer {
+        bottom: -300px;
+        margin-bottom: 25px;
+        height: 70px;
+        width: 100vw;
+        letter-spacing: 10px;
+    }
+    #copy {
+        top: 45%;
+        left: 46.5%;
+        letter-spacing: 0;
+    }
+    #by {
+        top: 45%;
+        left: 30px;
+        letter-spacing: 0;
+    }
+    #fb {
+        top: 35%;
+        margin-right: 50px;
+        right: 150px;
+    }
+    #git {
+        top: 35%;
+        margin-right: 40px;
+        right: 115px;
+    }
+    #twitter {
+        top: 35%;
+        margin-right: 30px;
+        right: 80px;
+    }
+    #insta {
+        top: 35%;
+        margin-right: 20px;
+        right: 45px;
+    }
+    #link {
+        top: 35%;
+        margin-right: 10px;
+        right: 10px;
+    }
+    .count {
+        display: block;
+        margin-top: 15px;
+    }
+    button {
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 40px;
+        width: 250px;
+        margin-bottom: 7px;
+        height: 40px;
+    }
+    #mqp {
+        left: 42%;
+        bottom: -200px;
+    }
+    #ade {
+        left: 19.5%;
+        bottom: -200px;
+    }
+    #dsa {
+        right: 19.5%;
+        bottom: -200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+    }
+    li {
+        font-size: 40px;
+        text-shadow: 2.5px 2.5px orange;
+    }
+    @keyframes load {
+        0% {
+            opacity: 1;
+            color: #111;
+            width: 160px;
+            background-color: transparent;
+        }
+        100% {
+            opacity: 1;
+            width: 160px;
+            background-color: #111;
+        }
+    }
+    .infoScience {
+        top: 75px;
+        left: 20px;
+        height: 170px;
+        width: 140px;
+        border-radius: 5%;
+    }
+    .compScience {
+        top: 75px;
+        right: 20px;
+        height: 170px;
+        width: 160px;
+        border-radius: 5%;
+    }
+    .mechanical {
+        top: 275px;
+        right: 20px;
+        height: 170px;
+        width: 160px;
+        border-radius: 5%;
+    }
+    .civil {
+        top: 275px;
+        left: 20px;
+        height: 170px;
+        width: 160px;
+        border-radius: 5%;
+    }
+    .electro {
+        top: 480px;
+        left: 20px;
+        height: 170px;
+        width: 160px;
+        border-radius: 5%;
+    }
+    .math {
+        top: 480px;
+        right: 20px;
+        height: 170px;
+        width: 160px;
+        border-radius: 5%;
+    }
+    .math h1,
+    .mechanical h1,
+    .electro h1 {
+        margin-top: 5px;
+        font-size: 14px;
+        text-shadow: 2.5px 2.5px rgb(29, 29, 29);
+    }
+    #size {
+        margin-top: 5px;
+        font-size: 10px;
+        text-shadow: 2.5px 2.5px rgb(29, 29, 29);
+    }
+     ::-webkit-scrollbar {
+        width: 4px;
+    }
+    .footer {
+        bottom: 75px;
+        margin-bottom: 40px;
+        height: 50px;
+        width: 100vw;
+    }
+    #copy {
+        font-size: xx-small;
+        top: 75%;
+        left: 41%;
+    }
+    #by {
+        font-size: 6px;
+        top: 75%;
+        left: 10px;
+    }
+    #fb {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 50px;
+        right: 50px;
+    }
+    #git {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 40px;
+        right: 40px;
+    }
+    #twitter {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 30px;
+        right: 30px;
+    }
+    #insta {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 20px;
+        right: 20px;
+    }
+    #link {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 10px;
+        right: 10px;
+    }
+    .count {
+        display: block;
+        margin-top: 5px;
+    }
+    button {
+        font-size: 7.5px;
+        font-weight: bold;
+        border-radius: 40px;
+        width: 105px;
+        margin-bottom: 3.5px;
+        height: 20px;
+    }
+    #mqp {
+        left: 36.5%;
+        font-size: 7px;
+        bottom: 135px;
+    }
+    #ade {
+        left: 2.5%;
+        font-size: 6px;
+        bottom: 135px;
+    }
+    #dsa {
+        right: 2.5%;
+        font-size: 6px;
+        bottom: 135px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+    }
+    li {
+        font-size: 32px;
+        text-shadow: 1.5px 1.5px orange;
+    }
+    @keyframes load {
+        0% {
+            opacity: 1;
+            color: #111;
+            width: 130px;
+            background-color: transparent;
+        }
+        100% {
+            opacity: 1;
+            width: 130px;
+            background-color: #111;
+        }
+    }
+    .infoScience {
+        top: 50px;
+        left: 20px;
+        height: 160px;
+        width: 140px;
+        border-radius: 5%;
+    }
+    .compScience {
+        top: 50px;
+        right: 20px;
+        height: 160px;
+        width: 140px;
+        border-radius: 5%;
+    }
+    .mechanical {
+        top: 230px;
+        right: 20px;
+        height: 160px;
+        width: 140px;
+        border-radius: 5%;
+    }
+    .civil {
+        top: 230px;
+        left: 20px;
+        height: 160px;
+        width: 140px;
+        border-radius: 5%;
+    }
+    .electro {
+        top: 410px;
+        left: 20px;
+        height: 160px;
+        width: 140px;
+        border-radius: 5%;
+    }
+    .math {
+        top: 410px;
+        right: 20px;
+        height: 160px;
+        width: 140px;
+        border-radius: 5%;
+    }
+    .math h1,
+    .mechanical h1,
+    .electro h1 {
+        margin-top: 2.5px;
+        font-size: 10px;
+        text-shadow: 2.0px 2.0px rgb(29, 29, 29);
+    }
+    #size {
+        margin-top: 2.5px;
+        font-size: 7px;
+        text-shadow: 1.5px 1.5px rgb(29, 29, 29);
+    }
+     ::-webkit-scrollbar {
+        width: 2.5px;
+    }
+    .footer {
+        bottom: -25px;
+        height: 50px;
+        width: 100vw;
+    }
+    #copy {
+        font-size: xx-small;
+        top: 75%;
+        left: 41%;
+    }
+    #by {
+        font-size: 6px;
+        top: 75%;
+        left: 10px;
+    }
+    #fb {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 50px;
+        right: 50px;
+    }
+    #git {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 40px;
+        right: 40px;
+    }
+    #twitter {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 30px;
+        right: 30px;
+    }
+    #insta {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 20px;
+        right: 20px;
+    }
+    #link {
+        font-size: 15px;
+        top: 70%;
+        margin-right: 10px;
+        right: 10px;
+    }
+    .count {
+        display: block;
+        margin-top: 5px;
+    }
+    button {
+        font-size: 7.0px;
+        font-weight: bold;
+        border-radius: 40px;
+        width: 100px;
+        margin-bottom: 3.0px;
+        height: 18px;
+    }
+    #mqp {
+        left: 34.2%;
+        font-size: 6px;
+        bottom: 35px;
+    }
+    #ade {
+        left: 2.5%;
+        font-size: 5px;
+        bottom: 35px;
+    }
+    #dsa {
+        right: 2.5%;
+        font-size: 5px;
+        bottom: 35px;
+    }
+}
+
 .container {
     position: relative;
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     text-align: center;
-    background: url('images/bg.jpg') no-repeat;
-    background-size: 1600px 800px;
+    background: url('../InformationScience/bg.jpg') no-repeat;
 }
 
 li {
     display: inline;
     font-family: 'Shojumaru', cursive;
-    font-size: 80px;
     color: orangered;
-    text-shadow: 5px 5px orange;
 }
 
 .math:hover,
@@ -69,27 +520,8 @@ li {
     transition: ease-in-out 1s;
 }
 
-@keyframes load {
-    0% {
-        opacity: 1;
-        color: #111;
-        width: 320px;
-        background-color: transparent;
-    }
-    100% {
-        opacity: 1;
-        width: 320px;
-        background-color: #111;
-    }
-}
-
 .infoScience {
     position: absolute;
-    top: 180px;
-    left: 270px;
-    height: 340px;
-    width: 320px;
-    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
@@ -100,10 +532,6 @@ li {
 
 .math {
     position: absolute;
-    top: 180px;
-    height: 340px;
-    width: 320px;
-    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
@@ -114,11 +542,6 @@ li {
 
 .compScience {
     position: absolute;
-    top: 180px;
-    right: 270px;
-    height: 340px;
-    width: 320px;
-    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
@@ -129,11 +552,6 @@ li {
 
 .mechanical {
     position: absolute;
-    top: 570px;
-    left: 270px;
-    height: 340px;
-    width: 320px;
-    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
@@ -144,11 +562,6 @@ li {
 
 .civil {
     position: absolute;
-    top: 570px;
-    right: 270px;
-    height: 340px;
-    width: 320px;
-    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
@@ -159,11 +572,6 @@ li {
 
 .electro {
     position: absolute;
-    top: 570px;
-    transform: translateX(50%, 50%);
-    height: 340px;
-    width: 320px;
-    border-radius: 5%;
     display: flexbox;
     justify-content: center;
     text-align: center;
@@ -175,17 +583,25 @@ li {
 .math h1,
 .mechanical h1,
 .electro h1 {
-    margin-top: 15px;
     font-family: 'Pacifico', cursive;
-    font-size: 28px;
     text-shadow: 5px 5px rgb(29, 29, 29);
     color: orange;
 }
 
+ ::-webkit-scrollbar-thumb {
+    animation: load alternate-reverse 0.1s infinite;
+    background: linear-gradient(orange, orangered);
+    border-radius: 100px;
+    height: 25px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    animation: load alternate-reverse 0.1s infinite;
+    background: linear-gradient(orangered, orange);
+}
+
 #size {
-    margin-top: 22px;
     font-family: 'Pacifico', cursive;
-    font-size: 20px;
     text-shadow: 5px 5px rgb(29, 29, 29);
     color: orange;
 }
@@ -207,22 +623,6 @@ a {
     border: 2px solid orange;
 }
 
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-    animation: load alternate-reverse 0.1s infinite;
-    background: linear-gradient(orange, orangered);
-    border-radius: 100px;
-    height: 50px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    animation: load alternate-reverse 0.1s infinite;
-    background: linear-gradient(orangered, orange);
-}
-
 @keyframes move {
     0% {
         opacity: 0;
@@ -234,6 +634,74 @@ a {
         color: transparent;
         width: auto;
     }
+}
+
+.footer {
+    position: absolute;
+    background-color: transparent;
+}
+
+#copy {
+    color: orangered;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+}
+
+#by {
+    color: orangered;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+}
+
+i {
+    background: transparent;
+}
+
+#fb {
+    position: absolute;
+    color: orangered;
+}
+
+#git {
+    position: absolute;
+    color: orangered;
+}
+
+#twitter {
+    position: absolute;
+    color: orangered;
+}
+
+#insta {
+    position: absolute;
+    color: orangered;
+}
+
+#link {
+    position: absolute;
+    color: orangered;
+}
+
+#fb:hover {
+    color: #1877f2;
+}
+
+#git:hover {
+    color: #6e5494;
+}
+
+#twitter:hover {
+    color: #1da1f2;
+}
+
+#link:hover {
+    color: #007bb5;
+}
+
+#insta:hover {
+    color: #c32aa3;
 }
 
 ul li:nth-child(1) {
@@ -290,117 +758,12 @@ ul li:nth-child(9) {
     text-shadow: 5px 5px 3px orange;
 }
 
-.footer {
-    position: absolute;
-    bottom: -300px;
-    margin-bottom: 25px;
-    height: 70px;
-    width: 100vw;
-    letter-spacing: 10px;
-    background-color: transparent;
-}
-
-#copy {
-    color: orangered;
-    position: absolute;
-    top: 45%;
-    left: 46.5%;
-    background-color: transparent;
-    text-align: center;
-    letter-spacing: 0;
-}
-
-#by {
-    color: orangered;
-    position: absolute;
-    top: 45%;
-    left: 30px;
-    background-color: transparent;
-    text-align: center;
-    letter-spacing: 0;
-}
-
-i {
-    background: transparent;
-}
-
-#fb {
-    position: absolute;
-    top: 35%;
-    margin-right: 50px;
-    right: 150px;
-    color: orangered;
-}
-
-#git {
-    position: absolute;
-    top: 35%;
-    margin-right: 40px;
-    right: 115px;
-    color: orangered;
-}
-
-#twitter {
-    position: absolute;
-    top: 35%;
-    margin-right: 30px;
-    right: 80px;
-    color: orangered;
-}
-
-#insta {
-    position: absolute;
-    top: 35%;
-    margin-right: 20px;
-    right: 45px;
-    color: orangered;
-}
-
-#link {
-    position: absolute;
-    top: 35%;
-    margin-right: 10px;
-    right: 10px;
-    color: orangered;
-}
-
-#fb:hover {
-    color: #1877f2;
-}
-
-#git:hover {
-    color: #6e5494;
-}
-
-#twitter:hover {
-    color: #1da1f2;
-}
-
-#link:hover {
-    color: #007bb5;
-}
-
-#insta:hover {
-    color: #c32aa3;
-}
-
-.count {
-    display: block;
-    margin-top: 15px;
-}
-
 button {
     flex: 1 1 auto;
     font-family: 'Share Tech Mono', monospace;
-    font-size: 15px;
-    font-weight: bolder;
     text-align: center;
     transition: 0.5s;
     color: whitesmoke;
-    border-radius: 40px;
-    width: 250px;
-    margin-bottom: 7px;
-    height: 40px;
     background-image: linear-gradient(to right, orangered 0%, orange 51%, orangered 100%);
 }
 
@@ -419,24 +782,18 @@ button:hover {
 
 #mqp {
     position: absolute;
-    left: 42%;
-    bottom: -200px;
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
 }
 
 #ade {
     position: absolute;
-    left: 19.5%;
-    bottom: -200px;
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
 }
 
 #dsa {
     position: absolute;
-    right: 19.5%;
-    bottom: -200px;
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
 }
