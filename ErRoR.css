@@ -54,12 +54,32 @@
     margin-top: 15px;
 }
 button {
-    font-size: 15px;
+    font-size: 8px;
     font-weight: bolder;
     border-radius: 40px;
-    width: 250px;
-    margin-bottom: 7px;
-    height: 40px;
+    width: 150px;
+    height: 25px;
+    top: 58%;
+    left: 31%;
+}
+img {
+    height: 155px;
+    width: 155px;
+    top: 25%;
+    left: 31%;
+}
+.text {
+    top: 43%;
+    left: 5px;
+}
+.text h1 {
+    font-size: 75px;
+    letter-spacing: 5px;
+}
+
+.text h4 {
+    font-size: 30px;
+    letter-spacing: 1px;
 }
 }
 
@@ -108,12 +128,33 @@ button {
         margin-top: 5px;
     }
     button {
-        font-size: 7.5px;
+        font-size: 16px;
         font-weight: bold;
         border-radius: 40px;
-        width: 105px;
-        margin-bottom: 3.5px;
-        height: 20px;
+        width: 305px;
+        height: 40px;
+        bottom: 120px;
+        left: 41.3%;
+        
+    }
+    img {
+        height: 250px;
+        width: 250px;
+        top: 20%;
+        left: 43%;
+    }
+    .text {
+        top: 50%;
+        left: 20px;
+    }
+    .text h1 {
+        font-size: 150px;
+        letter-spacing: 10px;
+    }
+    
+    .text h4 {
+        font-size: 60px;
+        letter-spacing: 2px;
     }
 }
 
@@ -124,6 +165,25 @@ button {
     background-size: cover;
     background-position: center;
     background: url('images/bg.jpg') no-repeat;
+}
+
+img {
+    position: absolute;
+}
+.text {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+.text h1 {
+    font-weight: bolder;
+    color: orangered;
+    font-family: 'Bangers', cursive;
+}
+
+.text h4 {
+    color: orangered;
+    font-family: 'Bangers', cursive;
 }
 
 a {
@@ -141,6 +201,7 @@ a {
 }
 button {
     flex: 1 1 auto;
+    position: absolute;
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     transition: 0.5s;
