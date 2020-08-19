@@ -4,239 +4,111 @@
     box-sizing: border-box;
     overflow: hidden;
 }
-@media only screen and (max-width: 600px) {
-.footer {
-    top: 710px;
-    height: 15px;
-    width: 100vw;
-}
-#copy {
-    font-size: xx-small;
-    top: 15%;
-    left: 43%;
-}
-#by {
-    font-size: 6px;
-    top: 10%;
-    left: 10px;
-}
-#fb {
-    font-size: 15px;
-    margin-right: 50px;
-    right: 50px;
-}
-#git {
-    font-size: 15px;
-    top: 0%;
-    margin-right: 40px;
-    right: 40px;
-}
-#twitter {
-    font-size: 15px;
-    top: 0%;
-    margin-right: 30px;
-    right: 30px;
-}
-#insta {
-    font-size: 15px;
-    top: 0%;
-    margin-right: 20px;
-    right: 20px;
-}
-#link {
-    font-size: 15px;
-    top: 0%;
-    margin-right: 10px;
-    right: 10px;
-}
-.count {
-    display: block;
-    margin-top: 15px;
-}
-button {
-    font-size: 8px;
-    font-weight: bolder;
-    border-radius: 40px;
-    width: 150px;
-    height: 25px;
-    top: 58%;
-    left: 31%;
-}
-img {
-    height: 155px;
-    width: 155px;
-    top: 25%;
-    left: 31%;
-}
-.text {
-    top: 43%;
-    left: 5px;
-}
-.text h1 {
-    font-size: 75px;
-    letter-spacing: 5px;
+
+html {
+    font-size: 62.5%;
 }
 
-.text h4 {
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-}
-
-@media only screen and (min-width: 600px) {
-    .footer {
-        bottom: 40px;
-        left: -4px;
-        height: 50px;
-        width: 100vw;
-    }
-    #copy {
-        top: 45%;
-        left: 46.5%;
-    }
-    #by {
-        top: 45%;
-        left: 30px;
-    }
-    #fb {
-        top: 35%;
-        margin-right: 50px;
-        right: 150px;
-    }
-    #git {
-        top: 35%;
-        margin-right: 40px;
-        right: 115px;
-    }
-    #twitter {
-        top: 35%;
-        margin-right: 30px;
-        right: 80px;
-    }
-    #insta {
-        top: 35%;
-        margin-right: 20px;
-        right: 45px;
-    }
-    #link {
-        top: 35%;
-        margin-right: 10px;
-        right: 10px;
-    }
-    .count {
-        display: block;
-        margin-top: 5px;
-    }
-    button {
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 40px;
-        width: 305px;
-        height: 40px;
-        bottom: 120px;
-        left: 41.3%;
-        
+@media(max-width: 1600px) {
+    html {
+        font-size: 65%;
     }
     img {
-        height: 250px;
-        width: 250px;
-        top: 20%;
-        left: 43%;
-        
+        top: 10rem;
     }
-
+    .footer {
+        top: 140rem;
+    }
     .text {
-        top: 50%;
-        left: 20px;
+        top: 35rem;
     }
-    .text h1 {
-        font-size: 150px;
-        letter-spacing: 10px;
+    .footer {
+        top: 70rem;
     }
-    
-    .text h4 {
-        font-size: 60px;
-        letter-spacing: 2px;
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
     }
 }
 
-@media only screen and (max-width: 380px) {
-    .footer {
-        top: 580px;
-        height: 50px;
-        width: 100vw;
-    }
-    #copy {
-        font-size: xx-small;
-        top: 75%;
-        left: 41%;
-    }
-    #by {
-        font-size: 6px;
-        top: 75%;
-        left: 10px;
-    }
-    #fb {
-        font-size: 15px;
-        top: 70%;
-        margin-right: 50px;
-        right: 50px;
-    }
-    #git {
-        font-size: 15px;
-        top: 70%;
-        margin-right: 40px;
-        right: 40px;
-    }
-    #twitter {
-        font-size: 15px;
-        top: 70%;
-        margin-right: 30px;
-        right: 30px;
-    }
-    #insta {
-        font-size: 15px;
-        top: 70%;
-        margin-right: 20px;
-        right: 20px;
-    }
-    #link {
-        font-size: 15px;
-        top: 70%;
-        margin-right: 10px;
-        right: 10px;
-    }
-    .count {
-        display: block;
-        margin-top: 5px;
-    }
-    button {
-        font-size: 8px;
-        font-weight: bolder;
-        border-radius: 40px;
-        width: 150px;
-        height: 25px;
-        top: 69%;
-        left: 29%;
+@media(max-width: 1200px) {
+    html {
+        font-size: 55%;
     }
     img {
-        height: 140px;
-        width: 140px;
-        top: 29%;
-        left: 31.5%;
+        top: 10rem;
+    }
+    .footer {
+        top: 75rem;
     }
     .text {
-        top: 50%;
-        left: 5px;
+        top: 35rem;
     }
-    .text h1 {
-        font-size: 80px;
-        letter-spacing: 5px;
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
     }
-    
-    .text h4 {
-        font-size: 30px;
-        letter-spacing: 1px;
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 35%;
+    }
+    img {
+        top: 45rem;
+    }
+    .footer {
+        top: 120rem;
+    }
+    .text {
+        top: 70rem;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+}
+
+@media(max-width: 450px) {
+    html {
+        font-size: 29%;
+    }
+    img {
+        top: 45rem;
+    }
+    .footer {
+        top: 140rem;
+    }
+    .text {
+        top: 70rem;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+}
+
+@media(max-width: 320px) {
+    html {
+        font-size: 21%;
+    }
+    img {
+        top: 45rem;
+    }
+    .text {
+        top: 70rem;
+    }
+    .footer {
+        top: 140rem;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
     }
 }
 
@@ -244,42 +116,50 @@ img {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-size: cover;
-    background-position: center;
+    display: flex;
     background: url('images/bg.jpg') no-repeat;
+    justify-content: center;
 }
 
 img {
     position: absolute;
     animation: loop alternate 0.1s infinite;
+    height: 25.0rem;
+    width: 25.0rem;
+    transform: translate(50%);
 }
 
 @keyframes loop {
-    0%{
+    0% {
         transform: scale(1);
         opacity: 0;
     }
-    100%{
+    100% {
         transform: scale(1.1);
         opacity: 1;
     }
-    
 }
 
 .text {
-    position: relative;
+    position: absolute;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
+
 .text h1 {
     font-weight: bolder;
     color: orangered;
     font-family: 'Bangers', cursive;
+    font-size: 15.0rem;
+    letter-spacing: 1.0rem;
 }
 
 .text h4 {
     color: orangered;
     font-family: 'Bangers', cursive;
+    font-size: 6.0rem;
+    letter-spacing: .2rem;
 }
 
 a {
@@ -294,15 +174,22 @@ a {
 .footer {
     position: absolute;
     background-color: transparent;
+    height: 5.0rem;
+    width: 100vw;
 }
+
 button {
-    flex: 1 1 auto;
-    position: absolute;
+    margin-top: 3rem;
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     transition: 0.5s;
     color: whitesmoke;
     background-image: linear-gradient(to right, orangered 0%, orange 51%, orangered 100%);
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 4.0rem;
+    width: 30.5rem;
+    height: 4.0rem;
 }
 
 button:hover {
@@ -311,7 +198,7 @@ button:hover {
     transition: linear 0.25s;
 }
 
-.count p:hover {
+#one:hover {
     cursor: pointer;
     transform: scale(1.2);
     transition: ease-in-out 1s;
@@ -329,6 +216,9 @@ button:hover {
     background-color: transparent;
     text-align: center;
     letter-spacing: 0;
+    top: 45%;
+    left: 46.5%;
+    font-size: 1.5rem;
 }
 
 #by {
@@ -336,6 +226,9 @@ button:hover {
     position: absolute;
     background-color: transparent;
     letter-spacing: 0;
+    top: 45%;
+    left: 3.0rem;
+    font-size: 1.5rem;
 }
 
 i {
@@ -345,26 +238,46 @@ i {
 #fb {
     position: absolute;
     color: orangered;
+    top: 35%;
+    margin-right: 5.0rem;
+    right: 15.0rem;
+    font-size: 3rem;
 }
 
 #git {
     position: absolute;
     color: orangered;
+    top: 35%;
+    margin-right: 4.0rem;
+    right: 11.5rem;
+    font-size: 3rem;
 }
 
 #twitter {
     position: absolute;
     color: orangered;
+    top: 35%;
+    margin-right: 3.0rem;
+    right: 8.0rem;
+    font-size: 3rem;
 }
 
 #insta {
     position: absolute;
     color: orangered;
+    top: 35%;
+    margin-right: 2.0rem;
+    right: 4.5rem;
+    font-size: 3rem;
 }
 
 #link {
     position: absolute;
     color: orangered;
+    top: 35%;
+    margin-right: 1.0rem;
+    right: 1.0rem;
+    font-size: 3rem;
 }
 
 #fb:hover {
