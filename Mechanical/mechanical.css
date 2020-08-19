@@ -17,8 +17,26 @@ html {
         top: 68rem;
     }
     #copy {
-        bottom: -2.8rem;
-        left: 20rem;
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+    .sem {
+        top: 11rem;
+    }
+}
+
+@media(max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+    .footer {
+        top: 68rem;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
     }
     .sem {
         top: 11rem;
@@ -33,15 +51,16 @@ html {
         top: 120rem;
     }
     #copy {
-        bottom: -30.0rem;
-        left: 23rem;
+        top: 3rem;
+        display: inline;
+        align-items: center;
     }
     .sem {
         top: 35rem;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 450px) {
     html {
         font-size: 29%;
     }
@@ -49,15 +68,16 @@ html {
         top: 115rem;
     }
     #copy {
-        bottom: -24.5rem;
-        left: 23rem;
+        top: 3rem;
+        display: inline;
+        align-items: center;
     }
     .sem {
         top: 35rem;
     }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 320px) {
     html {
         font-size: 25%;
     }
@@ -65,8 +85,9 @@ html {
         top: 115rem;
     }
     #copy {
-        bottom: -23.0rem;
-        left: 23rem;
+        top: 3rem;
+        display: inline;
+        align-items: center;
     }
     .sem {
         top: 35rem;
