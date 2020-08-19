@@ -16,6 +16,10 @@ html {
     .footer {
         top: 140rem;
     }
+    .extra {
+        top: 135rem;
+        text-align: center;
+    }
     #copy {
         top: 3rem;
         display: inline;
@@ -29,6 +33,10 @@ html {
     }
     .footer {
         top: 140rem;
+    }
+    .extra {
+        top: 135rem;
+        text-align: center;
     }
     #copy {
         top: 3rem;
@@ -44,6 +52,10 @@ html {
     .footer {
         top: 140rem;
     }
+    .extra {
+        bottom: -14rem;
+        text-align: center;
+    }
     #copy {
         top: 3rem;
         display: inline;
@@ -58,6 +70,10 @@ html {
     .footer {
         top: 140rem;
     }
+    .extra {
+        bottom: 10rem;
+        text-align: center;
+    }
     #copy {
         top: 3rem;
         display: inline;
@@ -71,6 +87,10 @@ html {
     }
     .footer {
         top: 140rem;
+    }
+    .extra {
+        bottom: 68rem;
+        text-align: center;
     }
     #copy {
         top: 3rem;
@@ -540,28 +560,30 @@ button:hover {
     color: rgb(29, 29, 29);
 }
 
-#mqp {
+.extra {
     position: absolute;
+    height: 7rem;
+    width: fit-content;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#mqp {
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
-    left: 42%;
-    bottom: -20.0rem;
+    margin: 0 1rem;
 }
 
 #ade {
-    position: absolute;
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
-    left: 19.5%;
-    bottom: -20.0rem;
+    margin: 0 1rem;
 }
 
 #dsa {
-    position: absolute;
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
-    right: 19.5%;
-    bottom: -20.0rem;
+    margin: 0 1rem;
 }
 
 #one {
