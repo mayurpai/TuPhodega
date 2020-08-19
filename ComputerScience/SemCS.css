@@ -590,18 +590,21 @@ button:hover {
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
     margin: 0 1rem;
+    z-index: 20;
 }
 
 #ade {
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
     margin: 0 1rem;
+    z-index: 20;
 }
 
 #dsa {
     cursor: pointer;
     animation: loads alternate-reverse 0.1s 0.1s infinite;
     margin: 0 1rem;
+    z-index: 20;
 }
 
 #one {
