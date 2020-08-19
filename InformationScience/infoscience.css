@@ -102,6 +102,7 @@ html {
     justify-content: center;
     text-align: center;
     background: url('../InformationScience/bg.jpg') no-repeat;
+    background-size: cover;
 }
 
 li {

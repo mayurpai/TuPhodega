@@ -118,6 +118,7 @@ html {
     width: 100vw;
     display: flex;
     background: url('images/bg.jpg') no-repeat;
+    background-size: cover;
     justify-content: center;
 }
 
