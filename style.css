@@ -199,6 +199,7 @@ li {
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
     top: 57rem;
+    height: 34rem;
     width: 32rem;
     border-radius: 5%;
 }
@@ -228,6 +229,7 @@ li {
     top: 57rem;
     margin-left: 40rem;
     margin-top: 40rem;
+    height: 34rem;
     width: 32rem;
     border-radius: 5%;
 }
@@ -318,6 +320,7 @@ ul li:nth-child(9) {
     width: 100vw;
     position: absolute;
     background-color: transparent;
+    overflow: hidden;
 }
 
 #copy {
@@ -326,6 +329,7 @@ ul li:nth-child(9) {
     background-color: transparent;
     text-align: center;
     letter-spacing: 0;
+    font-size: 1.5rem;
     top: 45%;
     left: 46.5%;
 }
@@ -335,6 +339,7 @@ ul li:nth-child(9) {
     position: absolute;
     background-color: transparent;
     letter-spacing: 0;
+    font-size: 1.5rem;
     top: 45%;
     left: 3rem;
 }
@@ -348,6 +353,7 @@ i {
     color: orangered;
     top: 35%;
     margin-right: 5rem;
+    font-size: 3rem;
     right: 15rem;
 }
 
@@ -356,6 +362,7 @@ i {
     color: orangered;
     top: 35%;
     margin-right: 4rem;
+    font-size: 3rem;
     right: 11.5rem;
 }
 
@@ -364,6 +371,7 @@ i {
     color: orangered;
     top: 35%;
     margin-right: 3rem;
+    font-size: 3rem;
     right: 8rem;
 }
 
@@ -372,6 +380,7 @@ i {
     color: orangered;
     top: 35%;
     margin-right: 2rem;
+    font-size: 3rem;
     right: 4.5rem;
 }
 
@@ -380,6 +389,7 @@ i {
     color: orangered;
     top: 35%;
     margin-right: 1rem;
+    font-size: 3rem;
     right: 1rem;
 }
 
