@@ -9,6 +9,24 @@ html {
     font-size: 62.5%;
 }
 
+@media(max-width: 2560px) {
+    html {
+        font-size: 65%;
+    }
+    .footer {
+        top: 140rem;
+    }
+    .extra {
+        top: 135rem;
+        text-align: center;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+}
+
 @media(max-width: 1600px) {
     html {
         font-size: 65%;
@@ -56,10 +74,10 @@ html {
         bottom: -14rem;
         text-align: center;
     }
-    #dsa{
+    #dsa {
         font-size: 7px;
     }
-    #ade{
+    #ade {
         font-size: 7px;
     }
     #copy {
@@ -80,11 +98,35 @@ html {
         bottom: 10rem;
         text-align: center;
     }
-    #dsa{
+    #dsa {
         font-size: 5px;
     }
-    #ade{
+    #ade {
         font-size: 5px;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+}
+
+@media(max-width: 390px) {
+    html {
+        font-size: 26.5%;
+    }
+    .footer {
+        top: 140rem;
+    }
+    .extra {
+        bottom: 68rem;
+        text-align: center;
+    }
+    #dsa {
+        font-size: 4px;
+    }
+    #ade {
+        font-size: 4px;
     }
     #copy {
         top: 3rem;
@@ -104,10 +146,10 @@ html {
         bottom: 68rem;
         text-align: center;
     }
-    #dsa{
+    #dsa {
         font-size: 3.5px;
     }
-    #ade{
+    #ade {
         font-size: 3.5px;
     }
     #copy {
@@ -115,14 +157,13 @@ html {
         display: inline;
         align-items: center;
     }
-    
 }
 
 .container {
     position: relative;
     display: flex;
     justify-content: center;
-    background: url('../InformationScience/bg.jpg') no-repeat;
+    background: url('../ComputerScience/bg.jpg') no-repeat;
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -297,7 +338,7 @@ li {
 }
 
 .mechanical h1,
-.electro h1, 
+.electro h1,
 .math h1 {
     margin-top: 1.5rem;
     font-size: 2.8rem;

@@ -9,6 +9,23 @@ html {
     font-size: 62.5%;
 }
 
+@media(max-width: 2560px) {
+    html {
+        font-size: 65%;
+    }
+    .footer {
+        top: 68rem;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+    .sem {
+        top: 11rem;
+    }
+}
+
 @media(max-width: 1600px) {
     html {
         font-size: 65%;
@@ -63,6 +80,23 @@ html {
 @media(max-width: 450px) {
     html {
         font-size: 29%;
+    }
+    .footer {
+        top: 115rem;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+    .sem {
+        top: 35rem;
+    }
+}
+
+@media(max-width: 390px) {
+    html {
+        font-size: 27%;
     }
     .footer {
         top: 115rem;
