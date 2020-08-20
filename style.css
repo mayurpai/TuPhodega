@@ -65,6 +65,20 @@ html {
     }
 }
 
+@media(max-width: 390px) {
+    html {
+        font-size: 26.5%;
+    }
+    .footer {
+        top: 140rem;
+    }
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+}
+
 @media(max-width: 320px) {
     html {
         font-size: 21%;
