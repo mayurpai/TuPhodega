@@ -245,6 +245,15 @@ i {
     font-size: 3rem;
 }
 
+#whatsapp {
+    position: absolute;
+    color: orangered;
+    top: 35%;
+    margin-right: 5rem;
+    font-size: 3rem;
+    right: 18rem;
+}
+
 #git {
     position: absolute;
     color: orangered;
@@ -299,6 +308,10 @@ i {
 
 #insta:hover {
     color: #c32aa3;
+}
+
+#whatsapp:hover {
+    color: #25D366;
 }
 
 @keyframes loads {

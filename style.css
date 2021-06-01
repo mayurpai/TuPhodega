@@ -118,6 +118,19 @@ html {
     background-size: cover;
 }
 
+.sem {
+    position: absolute;
+    height: 150rem;
+    width: 100%;
+    border-radius: 5.0rem;
+    background-size: cover;
+    background: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 @keyframes load {
     0% {
         opacity: 1;
@@ -155,7 +168,7 @@ li {
 .electro img:hover,
 .civil img:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1);
     transition: ease-in-out 1s;
 }
 
@@ -197,32 +210,78 @@ li {
     border: .2rem solid orange;
 }
 
-.infoScience {
+.cpy {
     position: absolute;
+    top: 146rem;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: serif;
+    pointer-events: none;
+}
+
+.cs {
+    position: absolute;
+    height: 50rem;
+    width: 100rem;
+    display: flex;
+    top: 10rem;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.ec {
+    position: absolute;
+    height: 50rem;
+    width: 100rem;
+    display: flex;
+    top: 90rem;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.me {
+    position: absolute;
+    height: 50rem;
+    width: 100rem;
+    display: flex;
+    top: 50rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.infoScience {
+    position: relative;
     justify-content: center;
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 18rem;
-    margin-left: 40rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .compScience {
-    position: absolute;
+    position: relative;
     justify-content: center;
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 18rem;
-    margin-right: 40rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mechanical {
@@ -232,40 +291,42 @@ li {
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 57rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .civil {
-    position: absolute;
+    position: relative;
     justify-content: center;
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 57rem;
-    margin-right: 40rem;
-    margin-top: 40rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .electro {
-    position: absolute;
+    position: relative;
     justify-content: center;
     text-align: center;
     background-color: orangered;
     border: .1rem solid orange;
     animation: load alternate-reverse 0.1s infinite;
-    top: 57rem;
-    margin-left: 40rem;
-    margin-top: 40rem;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infoScience h1,
@@ -400,6 +461,15 @@ i {
     right: 15rem;
 }
 
+#whatsapp {
+    position: absolute;
+    color: orangered;
+    top: 35%;
+    margin-right: 5rem;
+    font-size: 3rem;
+    right: 18rem;
+}
+
 #git {
     position: absolute;
     color: orangered;
@@ -468,4 +538,8 @@ i {
 
 #insta:hover {
     color: #c32aa3;
+}
+
+#whatsapp:hover {
+    color: #25D366;
 }

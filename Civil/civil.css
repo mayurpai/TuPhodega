@@ -365,6 +365,19 @@ i {
     color: orangered;
 }
 
+#whatsapp {
+    position: absolute;
+    color: orangered;
+    top: 2rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+    right: 18rem;
+}
+
+#whatsapp:hover {
+    color: #25D366;
+}
+
 #git {
     position: absolute;
     top: 2rem;
@@ -420,3 +433,4 @@ i {
 #insta:hover {
     color: #c32aa3;
 }
+
