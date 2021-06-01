@@ -14,7 +14,7 @@ html {
         font-size: 65%;
     }
     .footer {
-        top: 140rem;
+        top: 135rem;
     }
     #copy {
         top: 3rem;
@@ -28,7 +28,7 @@ html {
         font-size: 65%;
     }
     .footer {
-        top: 140rem;
+        top: 135rem;
     }
     #copy {
         top: 3rem;
@@ -42,7 +42,7 @@ html {
         font-size: 65%;
     }
     .footer {
-        top: 140rem;
+        top: 135rem;
     }
     #copy {
         top: 3rem;
@@ -56,7 +56,7 @@ html {
         font-size: 35%;
     }
     .footer {
-        top: 140rem;
+        top: 135rem;
     }
     #copy {
         top: 3rem;
@@ -70,7 +70,7 @@ html {
         font-size: 29%;
     }
     .footer {
-        top: 140rem;
+        top: 135rem;
     }
     #copy {
         top: 3rem;
@@ -84,7 +84,7 @@ html {
         font-size: 26.5%;
     }
     .footer {
-        top: 140rem;
+        top: 135rem;
     }
     #copy {
         top: 3rem;
@@ -98,7 +98,7 @@ html {
         font-size: 21%;
     }
     .footer {
-        top: 140rem;
+        top: 135rem;
     }
     #copy {
         top: 3rem;
@@ -212,7 +212,7 @@ li {
 
 .cpy {
     position: absolute;
-    top: 146rem;
+    top: 141rem;
     display: grid;
     place-items: center;
     font-size: 1.5rem;
