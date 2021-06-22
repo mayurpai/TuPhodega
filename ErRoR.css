@@ -182,6 +182,7 @@ img {
     font-family: 'Bangers', cursive;
     font-size: 15.0rem;
     letter-spacing: 1.0rem;
+    text-shadow: 1rem 1rem 0rem rgba(255, 255, 255, 0.15);
 }
 
 .text h4 {
@@ -189,6 +190,7 @@ img {
     font-family: 'Bangers', cursive;
     font-size: 6.0rem;
     letter-spacing: .2rem;
+    text-shadow: 1rem 1rem 0rem rgba(255, 255, 255, 0.15);
 }
 
 a {

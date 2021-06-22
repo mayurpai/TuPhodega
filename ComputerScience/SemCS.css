@@ -123,7 +123,7 @@ html {
     }
 }
 
-@media(max-width: 540px) and (max-height:720px){
+@media(max-width: 540px) and (max-height:720px) {
     html {
         font-size: 35%;
     }
@@ -317,6 +317,7 @@ li {
 .civil:hover {
     transform: scale(1.1);
     transition: ease-in-out 1s;
+    box-shadow: none;
 }
 
 .math img:hover,
@@ -392,13 +393,15 @@ li {
     justify-content: center;
     text-align: center;
     background-color: orangered;
-    border: .1rem solid orange;
+    border: .3rem solid orange;
     animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
+    box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+    transition: 1s all linear;
 }
 
 .math {
@@ -406,13 +409,15 @@ li {
     justify-content: center;
     text-align: center;
     background-color: orangered;
-    border: .1rem solid orange;
+    border: .3rem solid orange;
     animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
+    box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+    transition: 1s all linear;
 }
 
 .compScience {
@@ -420,13 +425,15 @@ li {
     justify-content: center;
     text-align: center;
     background-color: orangered;
-    border: .1rem solid orange;
+    border: .3rem solid orange;
     animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
+    box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+    transition: 1s all linear;
 }
 
 .mechanical {
@@ -434,13 +441,15 @@ li {
     justify-content: center;
     text-align: center;
     background-color: orangered;
-    border: .1rem solid orange;
+    border: .3rem solid orange;
     animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
+    box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+    transition: 1s all linear;
 }
 
 .civil {
@@ -448,13 +457,15 @@ li {
     justify-content: center;
     text-align: center;
     background-color: orangered;
-    border: .1rem solid orange;
+    border: .3rem solid orange;
     animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
+    box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+    transition: 1s all linear;
 }
 
 .electro {
@@ -462,13 +473,15 @@ li {
     justify-content: center;
     text-align: center;
     background-color: orangered;
-    border: .1rem solid orange;
+    border: .3rem solid orange;
     animation: load alternate-reverse 0.5s infinite;
     height: 34rem;
     width: 32rem;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
+    box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+    transition: 1s all linear;
 }
 
 .infoScience h1,
