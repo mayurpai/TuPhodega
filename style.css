@@ -31,7 +31,8 @@ html {
     }
 
     .container {
-        height: 150rem;
+        min-height: 150rem;
+        max-height: 100vh;
     }
 }
 
@@ -51,7 +52,8 @@ html {
     }
 
     .container {
-        height: 150rem;
+        min-height: 150rem;
+        max-height: 100vh;
     }
 }
 
