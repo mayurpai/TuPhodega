@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 html {
@@ -13,14 +19,17 @@ html {
     html {
         font-size: 65%;
     }
+
     .footer {
         top: 66rem;
     }
+
     #copy {
         top: 3rem;
         display: inline;
         align-items: center;
     }
+
     .sem {
         top: 11rem;
     }
@@ -30,14 +39,17 @@ html {
     html {
         font-size: 65%;
     }
+
     .footer {
         top: 66rem;
     }
+
     #copy {
         top: 3rem;
         display: inline;
         align-items: center;
     }
+
     .sem {
         top: 11rem;
     }
@@ -47,14 +59,17 @@ html {
     html {
         font-size: 55%;
     }
+
     .footer {
         top: 66rem;
     }
+
     #copy {
         top: 3rem;
         display: inline;
         align-items: center;
     }
+
     .sem {
         top: 11rem;
     }
@@ -64,14 +79,17 @@ html {
     html {
         font-size: 35%;
     }
+
     .footer {
         top: 120rem;
     }
+
     #copy {
         top: 3rem;
         display: inline;
         align-items: center;
     }
+
     .sem {
         top: 35rem;
     }
@@ -81,14 +99,17 @@ html {
     html {
         font-size: 29%;
     }
+
     .footer {
         top: 115rem;
     }
+
     #copy {
         top: 3rem;
         display: inline;
         align-items: center;
     }
+
     .sem {
         top: 35rem;
     }
@@ -98,14 +119,17 @@ html {
     html {
         font-size: 27%;
     }
+
     .footer {
         top: 115rem;
     }
+
     #copy {
         top: 3rem;
         display: inline;
         align-items: center;
     }
+
     .sem {
         top: 35rem;
     }
@@ -115,14 +139,17 @@ html {
     html {
         font-size: 25%;
     }
+
     .footer {
         top: 115rem;
     }
+
     #copy {
         top: 3rem;
         display: inline;
         align-items: center;
     }
+
     .sem {
         top: 35rem;
     }
@@ -135,8 +162,8 @@ html {
     display: flex;
     justify-content: center;
     text-align: center;
-    background: url('../Civil/bg.jpg') no-repeat;
-    background-size: cover;
+    /* background: url('../Civil/bg.jpg') no-repeat;
+    background-size: cover; */
 }
 
 li {
@@ -165,6 +192,7 @@ a {
     height: 25.0rem;
     border: .2rem solid orange;
 }
+
 
 .sem {
     position: absolute;
@@ -201,7 +229,7 @@ button:hover {
     -o-transform: scale(1.1);
 }
 
-p:hover {
+.count a button p:hover {
     cursor: pointer;
     transform: scale(1.3);
     transition: ease-in-out 1s;
@@ -246,6 +274,7 @@ p:hover {
         width: 40.0rem;
         background-color: transparent;
     }
+
     100% {
         opacity: 1;
         width: 40.0rem;
@@ -259,6 +288,7 @@ p:hover {
         color: orangered;
         width: auto;
     }
+
     100% {
         opacity: 1;
         color: transparent;
@@ -434,3 +464,14 @@ i {
     color: #c32aa3;
 }
 
+.videoback {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    object-fit: cover;
+}
