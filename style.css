@@ -31,8 +31,7 @@ html {
     }
 
     .container {
-        min-height: 150rem;
-        max-height: 100vh;
+        height: 150rem;
     }
 }
 
@@ -52,8 +51,7 @@ html {
     }
 
     .container {
-        min-height: 150rem;
-        max-height: 100vh;
+        height: 150rem;
     }
 }
 
@@ -97,7 +95,7 @@ html {
     }
 }
 
-@media(max-width: 540px) and (max-height:720px){
+@media(max-width: 540px) and (max-height:720px) {
     html {
         font-size: 35%;
     }
@@ -111,6 +109,7 @@ html {
         display: inline;
         align-items: center;
     }
+
     .container {
         height: 150rem;
     }
