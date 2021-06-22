@@ -530,6 +530,10 @@ i {
     right: 18rem;
 }
 
+#whatsapp:hover {
+    color: #25D366;
+}
+
 #git {
     position: absolute;
     color: orangered;
@@ -600,9 +604,6 @@ i {
     color: #c32aa3;
 }
 
-#whatsapp:hover {
-    color: #25D366;
-}
 
 .videoback {
     position: absolute;

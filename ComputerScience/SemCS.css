@@ -574,6 +574,19 @@ i {
     background: transparent;
 }
 
+#whatsapp {
+    position: absolute;
+    color: orangered;
+    top: 35%;
+    margin-right: 5rem;
+    font-size: 3rem;
+    right: 18rem;
+}
+
+#whatsapp:hover {
+    color: #25D366;
+}
+
 #fb {
     position: absolute;
     color: orangered;

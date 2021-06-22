@@ -4,11 +4,11 @@
     box-sizing: border-box;
     overflow-x: hidden;
     -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 html {
@@ -572,6 +572,19 @@ a {
 
 i {
     background: transparent;
+}
+
+#whatsapp {
+    position: absolute;
+    color: orangered;
+    top: 35%;
+    margin-right: 5rem;
+    font-size: 3rem;
+    right: 18rem;
+}
+
+#whatsapp:hover {
+    color: #25D366;
 }
 
 #fb {
