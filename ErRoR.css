@@ -221,23 +221,13 @@ button {
     height: 4.0rem;
 }
 
-button:hover {
-    background-position: right center;
-    transform: scale(1.1);
-    transition: linear 0.25s;
-}
-
-#one:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: ease-in-out 1s;
-    color: rgb(29, 29, 29);
-}
 
 #one {
     cursor: pointer;
     animation: loads alternate-reverse 0.3s 0.1s infinite;
 }
+
+
 
 #copy {
     color: orangered;
