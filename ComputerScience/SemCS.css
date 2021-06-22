@@ -123,6 +123,39 @@ html {
     }
 }
 
+@media(max-width: 540px) and (max-height:720px){
+    html {
+        font-size: 35%;
+    }
+
+    .footer {
+        top: 140rem;
+    }
+
+    .extra {
+        bottom: -14rem;
+        text-align: center;
+    }
+
+    #dsa {
+        font-size: 7px;
+    }
+
+    #ade {
+        font-size: 7px;
+    }
+
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+
+    .container {
+        height: 150rem;
+    }
+}
+
 @media(max-width: 450px) {
     html {
         font-size: 29%;
