@@ -278,7 +278,8 @@ a {
     display: grid;
     place-items: center;
     font-size: 1.5rem;
-    color: black;
+    color: orangered;
+    font-weight: bolder;
     font-family: serif;
     pointer-events: none;
 }
