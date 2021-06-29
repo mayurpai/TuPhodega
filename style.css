@@ -175,6 +175,27 @@ html {
     }
 }
 
+
+@media(max-width: 280px) {
+    html {
+        font-size: 17%;
+    }
+
+    .footer {
+        top: 135rem;
+    }
+
+    #copy {
+        top: 3rem;
+        display: inline;
+        align-items: center;
+    }
+
+    .container {
+        height: 100vh;
+    }
+}
+
 .container {
     position: relative;
     width: 100vw;
