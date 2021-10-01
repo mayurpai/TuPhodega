@@ -24,16 +24,12 @@ html {
         top: 10rem;
     }
 
-    .footer {
-        top: 140rem;
-    }
-
     .text {
         top: 35rem;
     }
 
     .footer {
-        top: 65rem;
+        top: 63.1rem;
     }
 
     #copy {
@@ -210,7 +206,7 @@ a {
 }
 
 button {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     transition: 0.5s;

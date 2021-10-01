@@ -21,7 +21,7 @@ html {
     }
 
     .footer {
-        top: 66rem;
+        top: 62.3rem;
     }
 
     #copy {
@@ -41,7 +41,7 @@ html {
     }
 
     .footer {
-        top: 66rem;
+        top: 62.3rem;
     }
 
     #copy {
@@ -214,7 +214,7 @@ button {
     color: whitesmoke;
     border-radius: 4.0rem;
     width: 40.0rem;
-    margin-top: 1.0rem;
+    margin-top: .5rem;
     background-image: linear-gradient(to right, orangered 0%, orange 51%, orangered 100%);
 }
 

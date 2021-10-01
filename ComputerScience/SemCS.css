@@ -337,7 +337,7 @@ li {
     transition: ease-in-out 1s;
 }
 
-.mechanical h1:hover {
+/* .mechanical h1:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: ease-in-out 1s;
@@ -353,7 +353,7 @@ li {
     cursor: pointer;
     transform: scale(1.1);
     transition: ease-in-out 1s;
-}
+} */
 
 .cs {
     position: absolute;
@@ -550,7 +550,7 @@ a {
     text-shadow: .5rem .5rem rgb(29, 29, 29);
     color: orange;
     margin-top: 2.2rem;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     text-shadow: .5rem .5rem rgb(29, 29, 29);
 }
 
