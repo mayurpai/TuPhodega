@@ -16,7 +16,18 @@
 </head>
 
 <body>
-
+<div class="loader-container">
+      <img class="m_dir" src="../images/T.png" />
+      <div class="think">
+        <p>Jao Ab Phodo!</p>
+      </div>
+      <div class="loader"></div>
+    </div>
+    <script>
+      $(window).on("load", function () {
+        $(".loader-container").fadeOut(1000);
+      });
+    </script>
     <div class="container">
         <video autoplay loop class=videoback muted plays-inline>
             <source src="../Video.mp4" type=video/mp4> </video>
