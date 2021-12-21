@@ -221,9 +221,22 @@ html {
   background-size: cover;
   background: transparent;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @keyframes load {
@@ -260,8 +273,12 @@ a {
 .mechanical:hover,
 .electro:hover,
 .civil:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -271,38 +288,49 @@ a {
 .electro img:hover,
 .civil img:hover {
   cursor: pointer;
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
 }
 
-.infoScience h1:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-  transition: ease-in-out 1s;
+.infoScience h1,
+.compScience h1,
+.mechanical h1,
+.electro h1,
+.civil h1 {
+  margin-top: 1.5rem;
+  animation: zoom alternate-reverse 0.5s 0.1s infinite;
+  font-size: 2.8rem;
+  text-shadow: 0.5rem 0.5rem orange;
+  font-family: "Pacifico", cursive;
+  color: #1d1d1d;
 }
 
-.compScience h1:hover {
-  cursor: pointer;
-  transform: scale(1.3);
-  transition: ease-in-out 1s;
+@-webkit-keyframes zoom {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #111111;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    color: whitesmoke;
+  }
 }
 
-.mechanical h1:hover {
-  cursor: pointer;
-  transform: scale(1.6);
-  transition: ease-in-out 1s;
-}
-
-.electro h1:hover {
-  cursor: pointer;
-  transform: scale(1.5);
-  transition: ease-in-out 1s;
-}
-
-.civil h1:hover {
-  cursor: pointer;
-  transform: scale(1.5);
-  transition: ease-in-out 1s;
+@keyframes zoom {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #111111;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    color: whitesmoke;
+  }
 }
 
 .container img {
@@ -358,88 +386,34 @@ a {
   align-items: center;
 }
 
-.infoScience {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.1s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
+.infoScience:hover,
+.compScience:hover,
+.mechanical:hover,
+.civil:hover,
+.electro:hover {
+  -webkit-box-shadow: 1.5rem 1.5rem 0.5rem #01010181;
+  box-shadow: 1.5rem 1.5rem 0.5rem #01010181;
 }
 
-.compScience {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.1s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
-}
-
-.mechanical {
-  position: absolute;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.1s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
-}
-
-.civil {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.1s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
-}
-
+.infoScience,
+.compScience,
+.mechanical,
+.civil,
 .electro {
   position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
   background-color: orangered;
   border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.1s infinite;
   height: 34rem;
   width: 32rem;
   border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+  -webkit-transition: 1s all linear;
   transition: 1s all linear;
 }
 

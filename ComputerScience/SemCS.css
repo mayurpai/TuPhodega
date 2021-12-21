@@ -262,7 +262,7 @@ html {
   justify-content: center;
   text-align: center;
   scroll-behavior: smooth;
-  /* background: url('../ComputerScience/bg.jpg') no-repeat;
+  /* background: url('../InformationScience/bg.jpg') no-repeat;
     background-size: cover; */
 }
 
@@ -281,23 +281,31 @@ html {
   background-size: cover;
   background: transparent;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @keyframes load {
   0% {
-    opacity: 1;
-    color: #111;
-    width: 32rem;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   100% {
-    opacity: 1;
-    width: 32rem;
-    background-color: #111;
+    background-color: #01010181;
   }
 }
 
@@ -315,8 +323,12 @@ li {
 .mechanical:hover,
 .electro:hover,
 .civil:hover {
-  transform: scale(1.1);
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -327,15 +339,17 @@ li {
 .electro img:hover,
 .civil img:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
 }
 
-#size:hover {
+/* #size:hover {
   cursor: pointer;
   transform: scale(1.05);
   transition: ease-in-out 1s;
-}
+} */
 
 /* .mechanical h1:hover {
     cursor: pointer;
@@ -388,122 +402,76 @@ li {
   align-items: center;
 }
 
-.infoScience {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.5s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
-}
-
+.infoScience,
+.compScience,
+.mechanical,
+.civil,
+.electro,
 .math {
   position: relative;
   justify-content: center;
   text-align: center;
-  background-color: orangered;
+  background-color: rgba(255, 255, 255, 0.2);
   border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.5s infinite;
+  /* animation: load alternate-reverse 1s infinite; */
   height: 34rem;
   width: 32rem;
   border-radius: 5%;
   justify-content: center;
   align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
   transition: 1s all linear;
 }
 
-.compScience {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.5s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
-}
-
-.mechanical {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.5s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
-}
-
-.civil {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.5s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
-}
-
-.electro {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: orangered;
-  border: 0.3rem solid orange;
-  animation: load alternate-reverse 0.5s infinite;
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
-  transition: 1s all linear;
+.infoScience:hover,
+.compScience:hover,
+.mechanical:hover,
+.civil:hover,
+.electro:hover,
+.math:hover {
+  background-color: rgb(17, 17, 17);
+  -webkit-box-shadow: 1rem 1rem 0rem rgb(255, 255, 255, 0.2);
+  box-shadow: 1rem 1rem 0rem rgba(255, 255, 255, 0.2);
 }
 
 .infoScience h1,
 .compScience h1,
-.civil h1 {
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  font-size: 2.8rem;
-  text-shadow: 0.5rem 0.5rem orange;
-  font-family: "Pacifico", cursive;
-  color: red;
-}
-
 .mechanical h1,
 .electro h1,
+.civil h1,
 .math h1 {
   margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 2.8rem;
-  text-shadow: 0.5rem 0.5rem rgb(29, 29, 29);
-  font-family: "Pacifico", cursive;
-  color: orange;
+  margin-bottom: 1rem;
+  /* animation: zoom alternate-reverse 0.5s 0.1s infinite; */
+  font-size: 2rem;
+  text-shadow: 0.125rem 0.125rem orange;
+  font-family: "Share Tech Mono", monospace;
+  color: whitesmoke;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #111111;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    color: whitesmoke;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #111111;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    color: whitesmoke;
+  }
 }
 
 a {
@@ -753,6 +721,8 @@ ul li:nth-child(9) {
 }
 
 button {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   font-family: "Share Tech Mono", monospace;
   text-align: center;
@@ -764,6 +734,7 @@ button {
     orange 51%,
     orangered 100%
   );
+  background-size: 100rem auto;
   font-size: 1.5rem;
   font-weight: bolder;
   border-radius: 4rem;
@@ -774,74 +745,80 @@ button {
 
 button:hover {
   background-position: right center;
-  transform: scale(1.03);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: 0.2rem 0.2rem 0rem #01010181;
+  box-shadow: 0.2rem 0.2rem 0rem #01010181;
+  -webkit-transition: linear 0.25s;
   transition: linear 0.25s;
 }
 
-.count p:hover {
-  cursor: pointer;
-  transform: scale(1.4);
+#one p:hover {
+  -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
-  color: rgb(29, 29, 29);
+  cursor: pointer;
+  color: #1d1d1d;
+  animation: zoom alternate-reverse 0.3s 0.1s infinite;
 }
 
 .extra {
   position: absolute;
+  padding-top: 1.5rem;
   height: 7rem;
-  width: fit-content;
+  width: 90rem;
   display: inline-flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #mqp {
   cursor: pointer;
-  animation: loads alternate-reverse 0.1s 0.1s infinite;
+  animation: loads alternate-reverse 0.3s 0.1s infinite;
   margin: 0 1rem;
   z-index: 20;
 }
 
 #ade {
   cursor: pointer;
-  animation: loads alternate-reverse 0.1s 0.1s infinite;
+  animation: loads alternate-reverse 0.3s 0.1s infinite;
   margin: 0 1rem;
   z-index: 20;
 }
 
 #dsa {
   cursor: pointer;
-  animation: loads alternate-reverse 0.1s 0.1s infinite;
+  animation: loads alternate-reverse 0.3s 0.1s infinite;
   margin: 0 1rem;
   z-index: 20;
 }
 
 #one {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.1s infinite;
+  animation: loads alternate-reverse 1s 0.1s infinite;
 }
 
 #two {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.2s infinite;
+  animation: loads alternate-reverse 1s 0.2s infinite;
 }
 
 #three {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.3s infinite;
+  animation: loads alternate-reverse 1s 0.3s infinite;
 }
 
 #four {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.4s infinite;
+  animation: loads alternate-reverse 1s 0.4s infinite;
 }
 
 #five {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.5s infinite;
+  animation: loads alternate-reverse 1s 0.5s infinite;
 }
 
 #six {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.6s infinite;
+  animation: loads alternate-reverse 1s 0.6s infinite;
 }
 
 @keyframes loads {
