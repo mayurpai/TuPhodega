@@ -121,6 +121,11 @@ html {
   .container {
     height: 100vh;
   }
+
+  /* .hey {
+    display: none;
+    visibility: hidden;
+  } */
 }
 
 @media (max-width: 540px) and (max-height: 720px) {
@@ -454,6 +459,7 @@ li {
     transform: scale(1.2);
     color: #111111;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -467,6 +473,7 @@ li {
     transform: scale(1.2);
     color: #111111;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -728,12 +735,10 @@ button {
   text-align: center;
   transition: 0.5s;
   color: whitesmoke;
-  background-image: linear-gradient(
-    to right,
-    orangered 0%,
-    orange 51%,
-    orangered 100%
-  );
+  background-image: linear-gradient(to right,
+      orangered 0%,
+      orange 51%,
+      orangered 100%);
   background-size: 100rem auto;
   font-size: 1.5rem;
   font-weight: bolder;
