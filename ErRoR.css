@@ -217,31 +217,71 @@ a {
 
 button {
   margin-top: 1.5rem;
-  font-family: "Share Tech Mono", monospace;
   text-align: center;
   transition: 0.5s;
   color: whitesmoke;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     orangered 0%,
     orange 51%,
     orangered 100%
-  );
+  ); */
   font-size: 2rem;
   font-weight: bold;
-  border-radius: 4rem;
+  border-radius: 86% 14% 86% 14% / 14% 86% 14% 86%;
   padding: 1.5rem;
   width: 30.5rem;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: 'Kaushan Script',
+  cursive;
+  text-align: center;
+  transition: 0.5s;
+  /* border: .1rem solid rgba(255, 255, 255, 0.25); */
+  color: whitesmoke;
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  /* background-image: linear-gradient(to right,
+      orangered 0%,
+      orange 51%,
+      orangered 100%); */
+  /* background-size: 100rem auto; */
+
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(.5rem);
+  box-shadow: 0 .4rem 3rem rgba(0, 0, 0, 0.1);
+  border: .1rem solid rgba(255, 255, 255, 0.3);
 }
 
 button:hover {
   background-position: right center;
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
   -webkit-box-shadow: 0.2rem 0.2rem 0rem #01010181;
   box-shadow: 0.2rem 0.2rem 0rem #01010181;
   -webkit-transition: linear 0.25s;
   transition: linear 0.25s;
+}
+
+button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 100%;
+  bottom: 0;
+  content: "";
+  background-image: linear-gradient(to right,
+      orangered 0%,
+      orange 51%,
+      orangered 100%);
+}
+
+button:hover:before {
+  transition: 1s all ease-in-out;
+  left: 100;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
 }
 
 #one {
@@ -382,7 +422,7 @@ i {
   }
 }
 
-@-webkit-keyframes loads {
+/* @-webkit-keyframes loads {
   0% {
     opacity: 1;
     color: black;
@@ -404,7 +444,7 @@ i {
     opacity: 1;
     background-color: whitesmoke;
   }
-}
+} */
 .videoback {
   position: absolute;
   right: 0;
