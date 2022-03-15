@@ -185,7 +185,7 @@ html {
   }
 
   .container {
-    height: 150rem;
+    height: 180rem;
   }
 }
 
@@ -218,7 +218,7 @@ html {
   }
 
   .container {
-    height: 160rem;
+    height: 180rem;
   }
 }
 
@@ -814,7 +814,8 @@ button {
 .button__icon {
   display: flex;
   align-items: center;
-  padding: 0px 54.5px;
+  padding: 0rem 5.45rem;
+  width: fit-content;
   color: whitesmoke;
   height: 100%;
 }
