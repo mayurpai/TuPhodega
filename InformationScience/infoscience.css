@@ -162,6 +162,10 @@ html {
   display: flex;
   justify-content: center;
   text-align: center;
+  background-image: linear-gradient(to bottom,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 51%,
+    rgb(0, 0, 0) 100%);
   /* background: url('../InformationScience/bg.jpg') no-repeat;
     background-size: cover; */
 }
