@@ -257,7 +257,7 @@ button:hover:before {
   z-index: -1;
 }
 
-button:hover {
+/* button:hover {
   background-position: right center;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
@@ -265,7 +265,7 @@ button:hover {
   box-shadow: 0.2rem 0.2rem 0rem #01010181;
   -webkit-transition: linear 0.25s;
   transition: linear 0.25s;
-}
+} */
 
 .count a button p:hover {
   -webkit-transition: ease-in-out 1s;
