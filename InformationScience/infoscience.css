@@ -163,9 +163,9 @@ html {
   justify-content: center;
   text-align: center;
   background-image: linear-gradient(to bottom,
-    rgb(0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.2) 51%,
-    rgb(0, 0, 0) 100%);
+      rgb(0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.2) 51%,
+      rgb(0, 0, 0) 100%);
   /* background: url('../InformationScience/bg.jpg') no-repeat;
     background-size: cover; */
 }
@@ -265,7 +265,14 @@ button:hover:before {
   box-shadow: 0.2rem 0.2rem 0rem #01010181;
   -webkit-transition: linear 0.25s;
   transition: linear 0.25s;
+  
 } */
+
+button:hover {
+  color: #1d1d1d;
+}
+
+
 
 .count a button p:hover {
   -webkit-transition: ease-in-out 1s;
@@ -586,9 +593,11 @@ i {
 }
 
 .think p {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Kaushan Script',
+    cursive;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.05rem;
 }
 
 .loader {

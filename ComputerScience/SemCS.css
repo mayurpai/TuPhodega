@@ -119,7 +119,7 @@ html {
   }
 
   .container {
-    height: 100vh;
+    height: 150rem;
   }
 }
 
@@ -185,7 +185,7 @@ html {
   }
 
   .container {
-    height: 100vh;
+    height: 180rem;
   }
 }
 
@@ -218,7 +218,7 @@ html {
   }
 
   .container {
-    height: 100vh;
+    height: 180rem;
   }
 }
 
@@ -251,9 +251,10 @@ html {
   }
 
   .container {
-    height: 100vh;
+    height: 200rem;
   }
 }
+
 
 .container {
   position: relative;
@@ -262,6 +263,10 @@ html {
   justify-content: center;
   text-align: center;
   scroll-behavior: smooth;
+  background-image: linear-gradient(to bottom,
+      rgb(0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.2) 51%,
+      rgb(0, 0, 0) 100%);
   /* background: url('../InformationScience/bg.jpg') no-repeat;
     background-size: cover; */
 }
@@ -317,7 +322,7 @@ li {
   text-shadow: 0.5rem 0.5rem orange;
 }
 
-.math:hover,
+/* .math:hover,
 .infoScience:hover,
 .compScience:hover,
 .mechanical:hover,
@@ -330,9 +335,9 @@ li {
   transition: ease-in-out 1s;
   -webkit-box-shadow: none;
   box-shadow: none;
-}
+} */
 
-.math img:hover,
+/* .math img:hover,
 .infoScience img:hover,
 .compScience img:hover,
 .mechanical img:hover,
@@ -343,7 +348,7 @@ li {
   transform: scale(1);
   -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
-}
+} */
 
 /* #size:hover {
   cursor: pointer;
@@ -409,19 +414,64 @@ li {
 .electro,
 .math {
   position: relative;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 0.3rem solid orange;
+  background-image: linear-gradient(to right,
+      orangered 0%,
+      orange 51%,
+      orangered 100%);
+  background-size: 100rem auto;
+  border: 0.25rem solid whitesmoke;
   /* animation: load alternate-reverse 1s infinite; */
-  height: 34rem;
-  width: 32rem;
-  border-radius: 5%;
+  height: 42rem;
+  width: 34rem;
+  border-radius: 86% 14% 86% 14% / 14% 86% 14% 86%;
   justify-content: center;
   align-items: center;
+  place-items: center;
   transition: 1s all linear;
+  padding: 5rem;
+  background-color: rgb(17, 17, 17);
+  -webkit-box-shadow: 1rem 1rem 0rem whitesmoke;
+  box-shadow: 1rem 1rem 0rem whitesmoke;
 }
 
+.infoScience:before,
+.compScience:before,
+.mechanical:before,
+.civil:before,
+.electro:before,
+.math:before {
+  transition: .00000001s all linear .1s;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  right: 100%;
+  bottom: 100%;
+  content: "";
+  background-color: rgba(255, 255, 255, 0.005);
+  box-shadow: 1rem 1rem 10rem rgba(255, 255, 255, 0.5);
+  /* border-radius: 1.6rem; */
+}
+
+.infoScience:hover:before,
+.compScience:hover:before,
+.mechanical:hover:before,
+.civil:hover:before,
+.electro:hover:before,
+.math:hover:before {
+  transition: 1s all ease-in-out;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+/* 
 .infoScience:hover,
 .compScience:hover,
 .mechanical:hover,
@@ -431,7 +481,7 @@ li {
   background-color: rgb(17, 17, 17);
   -webkit-box-shadow: 1rem 1rem 0rem rgb(255, 255, 255, 0.2);
   box-shadow: 1rem 1rem 0rem rgba(255, 255, 255, 0.2);
-}
+} */
 
 .infoScience h1,
 .compScience h1,
@@ -439,12 +489,14 @@ li {
 .electro h1,
 .civil h1,
 .math h1 {
-  margin-top: 1.5rem;
+  margin-top: -2.5rem;
   margin-bottom: 1rem;
+  width: 54rem;
   /* animation: zoom alternate-reverse 0.5s 0.1s infinite; */
-  font-size: 2rem;
-  text-shadow: 0.125rem 0.125rem orange;
-  font-family: "Share Tech Mono", monospace;
+  text-shadow: 0.25rem 0.25rem rgb(17, 17, 17);
+  font-weight: bolder;
+  font-family: 'Kaushan Script',
+    cursive;
   color: whitesmoke;
 }
 
@@ -454,6 +506,7 @@ li {
     transform: scale(1.2);
     color: #111111;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -467,6 +520,7 @@ li {
     transform: scale(1.2);
     color: #111111;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -721,19 +775,94 @@ ul li:nth-child(9) {
 }
 
 button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-family: 'Kaushan Script',
+    cursive;
+  text-align: center;
+  transition: 0.5s;
+  /* border: .1rem solid rgba(255, 255, 255, 0.25); */
+  color: whitesmoke;
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  /* background-image: linear-gradient(to right,
+      orangered 0%,
+      orange 51%,
+      orangered 100%); */
+  /* background-size: 100rem auto; */
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-radius: 1.25rem;
+  width: 25rem;
+  margin-bottom: 0.7rem;
+  height: 4.8rem;
+
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(.5rem);
+  box-shadow: 0 .4rem 4rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.6rem;
+  border: .1rem solid rgba(255, 255, 255, 0.3);
+
+  background-position: right center;
+  -webkit-box-shadow: 0.2rem 0.2rem 1rem #01010181;
+  box-shadow: 0.2rem 0.2rem 1rem #01010181;
+  -webkit-transition: linear 0.25s;
+  transition: linear 0.25s;
+}
+
+.button__text,
+.button__icon {
+  display: flex;
+  align-items: center;
+  padding: 0rem 5.45rem;
+  width: fit-content;
+  color: whitesmoke;
+  height: 100%;
+}
+
+.centering {
+  position: relative;
+  height: 2.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: transparent;
+  align-items: center;
+  overflow: hidden;
+}
+
+.button__icon {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right top,
+      rgb(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0.3) 51%,
+      rgb(255, 255, 255, 0.1) 100%);
+  /* background: rgba(255, 255, 255, 0.15); */
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+/* button {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+
   font-family: "Share Tech Mono", monospace;
   text-align: center;
   transition: 0.5s;
   color: whitesmoke;
-  background-image: linear-gradient(
-    to right,
-    orangered 0%,
-    orange 51%,
-    orangered 100%
-  );
+  background-image: linear-gradient(to right,
+      orangered 0%,
+      orange 51%,
+      orangered 100%);
   background-size: 100rem auto;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -741,7 +870,8 @@ button {
   width: 25rem;
   margin-bottom: 0.7rem;
   height: 4rem;
-}
+
+} */
 
 button:hover {
   background-position: right center;
@@ -753,13 +883,18 @@ button:hover {
   transition: linear 0.25s;
 }
 
-#one p:hover {
+#one p {
+  padding: .1rem;
+  font-size: 1.2rem;
+}
+
+/* #one p:hover {
   -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
   cursor: pointer;
-  color: #1d1d1d;
-  animation: zoom alternate-reverse 0.3s 0.1s infinite;
-}
+  color: #1d1d1d; */
+/* animation: zoom alternate-reverse 0.3s 0.1s infinite; */
+/* } */
 
 .extra {
   position: absolute;
@@ -772,21 +907,21 @@ button:hover {
 
 #mqp {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.1s infinite;
+  animation: loads alternate-reverse .3s 0.1s infinite;
   margin: 0 1rem;
   z-index: 20;
 }
 
 #ade {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.1s infinite;
+  animation: loads alternate-reverse .3s 0.1s infinite;
   margin: 0 1rem;
   z-index: 20;
 }
 
 #dsa {
   cursor: pointer;
-  animation: loads alternate-reverse 0.3s 0.1s infinite;
+  animation: loads alternate-reverse .3s 0.1s infinite;
   margin: 0 1rem;
   z-index: 20;
 }
@@ -821,7 +956,7 @@ button:hover {
   animation: loads alternate-reverse 1s 0.6s infinite;
 }
 
-@keyframes loads {
+/* @keyframes loads {
   0% {
     opacity: 1;
     color: black;
@@ -832,7 +967,7 @@ button:hover {
     opacity: 1;
     background-color: whitesmoke;
   }
-}
+} */
 
 .videoback {
   position: absolute;
@@ -876,9 +1011,11 @@ button:hover {
 }
 
 .think p {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Kaushan Script',
+    cursive;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.05rem;
 }
 
 .loader {
@@ -907,4 +1044,17 @@ button:hover {
   to {
     transform: rotate(360deg);
   }
+}
+
+.note {
+  position: absolute;
+  top: 145.5rem;
+  display: grid;
+  padding: 0 0.5rem;
+  place-items: center;
+  font-size: 1.5rem;
+  color: orangered;
+  font-weight: bolder;
+  font-family: serif;
+  pointer-events: none;
 }
